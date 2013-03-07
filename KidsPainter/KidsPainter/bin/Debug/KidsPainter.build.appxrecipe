@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BIN</Machine>
+    <WindowsUser>加滨</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\KidsPainter.exe">
+      <PackagePath>KidsPainter.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\KidsPainter.pdb">
+      <PackagePath>KidsPainter.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Eraser.png">
+      <PackagePath>Assets\Eraser.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\OilPastel.png">
+      <PackagePath>Assets\OilPastel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\PictureLib.png">
+      <PackagePath>Assets\PictureLib.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\candy.png">
+      <PackagePath>Assets\Stamp\candy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\cat.png">
+      <PackagePath>Assets\Stamp\cat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\cow.png">
+      <PackagePath>Assets\Stamp\cow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\dog.png">
+      <PackagePath>Assets\Stamp\dog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\dragon.png">
+      <PackagePath>Assets\Stamp\dragon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\Mario.png">
+      <PackagePath>Assets\Stamp\Mario.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\monkey.png">
+      <PackagePath>Assets\Stamp\monkey.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\moon.png">
+      <PackagePath>Assets\Stamp\moon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\mouse.png">
+      <PackagePath>Assets\Stamp\mouse.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\mushroom.png">
+      <PackagePath>Assets\Stamp\mushroom.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\ninja.png">
+      <PackagePath>Assets\Stamp\ninja.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\pig.png">
+      <PackagePath>Assets\Stamp\pig.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\pikachu.png">
+      <PackagePath>Assets\Stamp\pikachu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\star.png">
+      <PackagePath>Assets\Stamp\star.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\TakePhoto.png">
+      <PackagePath>Assets\TakePhoto.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush.png">
+      <PackagePath>Assets\WaterBrush.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Blue.png">
+      <PackagePath>Assets\WaterBrush_Blue.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Gray.png">
+      <PackagePath>Assets\WaterBrush_Gray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Green.png">
+      <PackagePath>Assets\WaterBrush_Green.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Red.png">
+      <PackagePath>Assets\WaterBrush_Red.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Black.jpg">
+      <PackagePath>Assets\WaterBrush_Black.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Blone.jpg">
+      <PackagePath>Assets\WaterBrush_Blone.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Purpuse.jpg">
+      <PackagePath>Assets\WaterBrush_Purpuse.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Skyblue.jpg">
+      <PackagePath>Assets\WaterBrush_Skyblue.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Yellow.jpg">
+      <PackagePath>Assets\WaterBrush_Yellow.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

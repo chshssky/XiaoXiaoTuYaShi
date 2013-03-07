@@ -1,0 +1,17 @@
+﻿<UserControl
+    x:Class="KidsPainter.MyUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KidsPainter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="200"
+    d:DesignWidth="450">
+    
+    <Grid x:Name="MyItem">
+        <Image x:Name="Myimage" HorizontalAlignment="Left" Height="180" Margin="10,10,0,0" VerticalAlignment="Top" Width="182"/>
+        <TextBlock x:Name="Mycall" HorizontalAlignment="Left" Margin="213,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="62" Width="207" FontSize="34" FontWeight="Bold" Foreground="Black"/>
+
+    </Grid>
+</UserControl>

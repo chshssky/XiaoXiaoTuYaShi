@@ -1,0 +1,224 @@
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Release\KidsPainter.exe
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Release\KidsPainter.pdb
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Release\resources.pri
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Release\AppxManifest.xml
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Release\KidsPainter.build.appxrecipe
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\App.g.i.cs
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\App.g.cs
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.g.i.cs
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.g.cs
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\MainPage.g.i.cs
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\MainPage.g.cs
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\XamlTypeInfo.g.cs
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\App.xaml
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.xaml
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\MainPage.xaml
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\KidsPainter.exe
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\KidsPainter.pdb
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\priconfig.xml
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\layout.resfiles
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\resources.resfiles
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\pri.resfiles
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\LanguageQualifiers.txt
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\ProjectArchitectures.txt
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\priconfig.xml.intermediate
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\layout.resfiles.intermediate
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\resources.resfiles.intermediate
+I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\pri.resfiles.intermediate
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\bin\Release\KidsPainter.exe
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\bin\Release\KidsPainter.pdb
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\bin\Release\resources.pri
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\bin\Release\AppxManifest.xml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\bin\Release\KidsPainter.build.appxrecipe
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\App.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\App.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\MainPage.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\MainPage.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\XamlTypeInfo.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\App.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\MainPage.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\KidsPainter.exe
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\KidsPainter.pdb
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\priconfig.xml.intermediate
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\layout.resfiles.intermediate
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\resources.resfiles.intermediate
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\pri.resfiles.intermediate
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\priconfig.xml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\layout.resfiles
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\resources.resfiles
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\pri.resfiles
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\LanguageQualifiers.txt
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\ProjectArchitectures.txt
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Main.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Main.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Main.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\BasicPage1.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\BasicPage1.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\BasicPage1.xaml
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\bin\Release\KidsPainter.exe
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\bin\Release\KidsPainter.pdb
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\bin\Release\resources.pri
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\bin\Release\AppxManifest.xml
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\bin\Release\KidsPainter.build.appxrecipe
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\App.g.i.cs
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\App.g.cs
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\BasicPage1.g.i.cs
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\BasicPage1.g.cs
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.g.i.cs
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.g.cs
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\Main.g.i.cs
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\Main.g.cs
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\MainPage.g.i.cs
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\MainPage.g.cs
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\XamlTypeInfo.g.cs
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\App.xaml
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\BasicPage1.xaml
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.xaml
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\Main.xaml
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\MainPage.xaml
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\KidsPainter.exe
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\KidsPainter.pdb
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\priconfig.xml.intermediate
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\layout.resfiles.intermediate
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\resources.resfiles.intermediate
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\pri.resfiles.intermediate
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\priconfig.xml
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\layout.resfiles
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\resources.resfiles
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\pri.resfiles
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\LanguageQualifiers.txt
+C:\Users\John\Documents\Dropbox\CodeProject\KidsPainter\KidsPainter\obj\Release\ProjectArchitectures.txt
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\BasicPage1.g.i.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\BasicPage1.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Main.g.i.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Main.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\BasicPage1.xaml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\Main.xaml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\MyUserControl.g.i.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\MyUserControl.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\obj\Release\MyUserControl.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\bin\Release\KidsPainter.exe
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\bin\Release\KidsPainter.pdb
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\bin\Release\resources.pri
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\bin\Release\AppxManifest.xml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\bin\Release\KidsPainter.build.appxrecipe
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\App.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\App.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Main.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Main.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\MyUserControl.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\MyUserControl.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\XamlTypeInfo.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\App.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Main.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\MyUserControl.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\KidsPainter.exe
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\KidsPainter.pdb
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\priconfig.xml.intermediate
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\layout.resfiles.intermediate
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\resources.resfiles.intermediate
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\pri.resfiles.intermediate
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\priconfig.xml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\layout.resfiles
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\resources.resfiles
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\pri.resfiles
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\LanguageQualifiers.txt
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\ProjectArchitectures.txt
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SettingPage.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SettingPage.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\PaintPage.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\PaintPage.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SettingPage.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\PaintPage.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\InputPassword.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\InputPassword.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SetPassword.g.i.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SetPassword.g.cs
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\InputPassword.xaml
+C:\Users\Yiting\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SetPassword.xaml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\bin\Release\KidsPainter.exe
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\bin\Release\KidsPainter.pdb
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\bin\Release\resources.pri
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\bin\Release\AppxManifest.xml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\bin\Release\KidsPainter.build.appxrecipe
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\App.g.i.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\App.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\InputPassword.g.i.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\InputPassword.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SetPassword.g.i.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SetPassword.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SettingPage.g.i.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SettingPage.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.g.i.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Main.g.i.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Main.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\PaintPage.g.i.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\PaintPage.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\MyUserControl.g.i.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\MyUserControl.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\XamlTypeInfo.g.cs
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\App.xaml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\InputPassword.xaml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SetPassword.xaml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\SettingPage.xaml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Common\StandardStyles.xaml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\Main.xaml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\PaintPage.xaml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\MyUserControl.xaml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\KidsPainter.exe
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\KidsPainter.pdb
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\priconfig.xml
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\layout.resfiles
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\resources.resfiles
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\pri.resfiles
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\LanguageQualifiers.txt
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\ProjectArchitectures.txt
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\priconfig.xml.intermediate
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\layout.resfiles.intermediate
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\resources.resfiles.intermediate
+I:\Users\加滨\Documents\Visual Studio 2012\Projects\KidsPainter\KidsPainter\KidsPainter\obj\Release\pri.resfiles.intermediate
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\bin\Release\KidsPainter.exe
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\bin\Release\KidsPainter.pdb
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\bin\Release\resources.pri
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\bin\Release\AppxManifest.xml
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\bin\Release\KidsPainter.build.appxrecipe
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\App.g.i.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\App.g.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\InputPassword.g.i.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\InputPassword.g.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\SetPassword.g.i.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\SetPassword.g.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\SettingPage.g.i.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\SettingPage.g.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\Common\StandardStyles.g.i.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\Common\StandardStyles.g.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\Main.g.i.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\Main.g.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\PaintPage.g.i.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\PaintPage.g.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\MyUserControl.g.i.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\MyUserControl.g.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\XamlTypeInfo.g.cs
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\App.xaml
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\InputPassword.xaml
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\SetPassword.xaml
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\SettingPage.xaml
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\Common\StandardStyles.xaml
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\Main.xaml
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\PaintPage.xaml
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\MyUserControl.xaml
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\KidsPainter.exe
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\KidsPainter.pdb
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\priconfig.xml
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\layout.resfiles
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\resources.resfiles
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\pri.resfiles
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\LanguageQualifiers.txt
+C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\obj\Release\ProjectArchitectures.txt

@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BIN</Machine>
+    <WindowsUser>加滨</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>980D51DC5AA0241E4132632CE981A3BC0E0F28D2EEE2A031A7D0969A25689672</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>176421a3-dfcf-4c91-b410-f2057572c903_1.0.0.0_neutral__6zyyz6ef4rsm4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>176421a3-dfcf-4c91-b410-f2057572c903_6zyyz6ef4rsm4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>176421a3-dfcf-4c91-b410-f2057572c903</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=加滨</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-03T07:00:46.152</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\KidsPainter.exe">
+      <PackagePath>KidsPainter.exe</PackagePath>
+      <Modified>2012-11-03T07:03:20.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\KidsPainter.pdb">
+      <PackagePath>KidsPainter.pdb</PackagePath>
+      <Modified>2012-11-03T07:03:20.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Eraser.png">
+      <PackagePath>Assets\Eraser.png</PackagePath>
+      <Modified>2012-10-30T03:07:56.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-03T05:47:58.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\OilPastel.png">
+      <PackagePath>Assets\OilPastel.png</PackagePath>
+      <Modified>2012-10-30T03:07:56.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\PictureLib.png">
+      <PackagePath>Assets\PictureLib.png</PackagePath>
+      <Modified>2012-10-30T03:07:56.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-03T05:45:38.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-03T07:09:37.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\candy.png">
+      <PackagePath>Assets\Stamp\candy.png</PackagePath>
+      <Modified>2012-10-30T02:05:41.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\cat.png">
+      <PackagePath>Assets\Stamp\cat.png</PackagePath>
+      <Modified>2012-10-30T01:45:00.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\cow.png">
+      <PackagePath>Assets\Stamp\cow.png</PackagePath>
+      <Modified>2012-10-30T01:42:55.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\dog.png">
+      <PackagePath>Assets\Stamp\dog.png</PackagePath>
+      <Modified>2012-10-30T01:41:12.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\dragon.png">
+      <PackagePath>Assets\Stamp\dragon.png</PackagePath>
+      <Modified>2012-10-30T01:43:15.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\Mario.png">
+      <PackagePath>Assets\Stamp\Mario.png</PackagePath>
+      <Modified>2012-10-30T04:08:02.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\monkey.png">
+      <PackagePath>Assets\Stamp\monkey.png</PackagePath>
+      <Modified>2012-10-30T01:42:27.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\moon.png">
+      <PackagePath>Assets\Stamp\moon.png</PackagePath>
+      <Modified>2012-10-30T01:46:21.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\mouse.png">
+      <PackagePath>Assets\Stamp\mouse.png</PackagePath>
+      <Modified>2012-10-30T01:43:35.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\mushroom.png">
+      <PackagePath>Assets\Stamp\mushroom.png</PackagePath>
+      <Modified>2012-10-30T02:03:22.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\ninja.png">
+      <PackagePath>Assets\Stamp\ninja.png</PackagePath>
+      <Modified>2012-10-30T01:52:38.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\pig.png">
+      <PackagePath>Assets\Stamp\pig.png</PackagePath>
+      <Modified>2012-10-30T01:42:02.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\pikachu.png">
+      <PackagePath>Assets\Stamp\pikachu.png</PackagePath>
+      <Modified>2012-10-30T02:08:09.492</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\Stamp\star.png">
+      <PackagePath>Assets\Stamp\star.png</PackagePath>
+      <Modified>2012-10-30T02:05:26.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-30T03:07:56.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\TakePhoto.png">
+      <PackagePath>Assets\TakePhoto.png</PackagePath>
+      <Modified>2012-10-30T03:07:56.975</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush.png">
+      <PackagePath>Assets\WaterBrush.png</PackagePath>
+      <Modified>2012-10-30T03:07:56.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Blue.png">
+      <PackagePath>Assets\WaterBrush_Blue.png</PackagePath>
+      <Modified>2012-10-30T03:07:56.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Gray.png">
+      <PackagePath>Assets\WaterBrush_Gray.png</PackagePath>
+      <Modified>2012-10-30T03:07:56.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Green.png">
+      <PackagePath>Assets\WaterBrush_Green.png</PackagePath>
+      <Modified>2012-10-30T03:07:56.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Red.png">
+      <PackagePath>Assets\WaterBrush_Red.png</PackagePath>
+      <Modified>2012-10-30T03:07:57.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Black.jpg">
+      <PackagePath>Assets\WaterBrush_Black.jpg</PackagePath>
+      <Modified>2012-10-30T03:07:56.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Blone.jpg">
+      <PackagePath>Assets\WaterBrush_Blone.jpg</PackagePath>
+      <Modified>2012-10-30T03:07:56.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Purpuse.jpg">
+      <PackagePath>Assets\WaterBrush_Purpuse.jpg</PackagePath>
+      <Modified>2012-10-30T03:07:57.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Skyblue.jpg">
+      <PackagePath>Assets\WaterBrush_Skyblue.jpg</PackagePath>
+      <Modified>2012-10-30T03:07:57.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\Assets\WaterBrush_Yellow.jpg">
+      <PackagePath>Assets\WaterBrush_Yellow.jpg</PackagePath>
+      <Modified>2012-10-30T03:07:57.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-11-01T12:54:42.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-07-26T12:23:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-11-01T13:51:05.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\Users\加滨\documents\visual studio 2012\Projects\KidsPainter\KidsPainter\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-11-03T07:00:45.760</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
