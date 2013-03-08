@@ -65,5 +65,11 @@ namespace KidsPainter
                 txBlShow.Text = rightHint;
             }
         }
+
+        private void btnToRegister_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.Frame != null)
+                this.Frame.Navigate(typeof(Register_zyt));
+        }
     }
 }

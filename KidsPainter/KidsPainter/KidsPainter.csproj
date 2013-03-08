@@ -120,6 +120,9 @@
     </Compile>
     <Compile Include="Message.cs" />
     <Compile Include="PasswordCheck.cs" />
+    <Compile Include="Register_zyt.xaml.cs">
+      <DependentUpon>Register_zyt.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ReturnElements.cs" />
     <Compile Include="SendMail.cs" />
     <Compile Include="SetPassword.xaml.cs">
@@ -212,6 +215,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Login_zyt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Register_zyt.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

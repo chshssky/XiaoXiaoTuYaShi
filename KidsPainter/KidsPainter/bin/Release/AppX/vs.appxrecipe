@@ -16,17 +16,17 @@
     <AppXManifest Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-03-08T06:36:21.783</Modified>
+      <Modified>2013-03-08T11:07:09.123</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\KidsPainter.exe">
       <PackagePath>KidsPainter.exe</PackagePath>
-      <Modified>2013-03-08T06:56:46.158</Modified>
+      <Modified>2013-03-08T11:47:02.971</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\KidsPainter.pdb">
       <PackagePath>KidsPainter.pdb</PackagePath>
-      <Modified>2013-03-08T06:56:46.133</Modified>
+      <Modified>2013-03-08T11:47:02.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Background_question.jpg">
       <PackagePath>Assets\Background_question.jpg</PackagePath>
@@ -218,7 +218,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\Login_zyt.xaml">
       <PackagePath>Login_zyt.xaml</PackagePath>
-      <Modified>2013-03-08T06:56:44.547</Modified>
+      <Modified>2013-03-08T11:05:42.165</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\Register_zyt.xaml">
+      <PackagePath>Register_zyt.xaml</PackagePath>
+      <Modified>2013-03-08T11:47:01.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\SetPassword.xaml">
       <PackagePath>SetPassword.xaml</PackagePath>
@@ -246,7 +250,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-03-08T06:36:21.705</Modified>
+      <Modified>2013-03-08T11:07:07.197</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

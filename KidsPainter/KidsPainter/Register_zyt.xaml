@@ -1,6 +1,6 @@
 ﻿<common:LayoutAwarePage
     x:Name="pageRoot"
-    x:Class="KidsPainter.Login_zyt"
+    x:Class="KidsPainter.Register_zyt"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -21,7 +21,7 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid Style="{StaticResource LayoutRootStyle}" Background="#FFC7B9B9">
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="#FFA66161">
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
@@ -34,16 +34,19 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="亲爱的家长，欢迎登陆" Style="{StaticResource PageHeaderTextStyle}"/>
-            <Button x:Name="btnToRegister" Content="还没账号？犹豫什么？&#xD;&#xA;赶快注册吧" Grid.Column="1" HorizontalAlignment="Left" Margin="784,10,0,-25" VerticalAlignment="Top" Height="155" Width="357" FontSize="30" Click="btnToRegister_Click"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="欢迎来到注册页面" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="222,75,0,0" Grid.Row="1" TextWrapping="Wrap" Text="登录邮箱" VerticalAlignment="Top" Height="53" Width="173" FontSize="40"/>
-        <TextBox x:Name="txBoEm" HorizontalAlignment="Left" Margin="469,75,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="388"/>
-        <TextBlock HorizontalAlignment="Left" Margin="222,175,0,0" Grid.Row="1" TextWrapping="Wrap" Text="密码" VerticalAlignment="Top" Height="40" Width="173" FontSize="40"/>
-        <Button x:Name="btnYes" Content="确认" HorizontalAlignment="Left" Margin="329,363,0,0" Grid.Row="1" VerticalAlignment="Top" Height="62" Width="144" FontSize="40" Click="btnYes_Click"/>
-        <Button x:Name="btnNo" Content="取消" HorizontalAlignment="Left" Margin="581,363,0,0" Grid.Row="1" VerticalAlignment="Top" Height="62" Width="156" FontSize="40"/>
-        <TextBlock x:Name="txBlShow" HorizontalAlignment="Left" Margin="955,75,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="156" Width="336" FontSize="30"/>
-        <PasswordBox x:Name="pdBox" HorizontalAlignment="Left" Margin="473,190,0,0" Grid.Row="1" VerticalAlignment="Top" Height="56" Width="384"/>
+        <TextBlock HorizontalAlignment="Left" Margin="190,24,0,0" Grid.Row="1" TextWrapping="Wrap" Text="家长邮箱" VerticalAlignment="Top" Height="52" Width="193" FontSize="40"/>
+        <TextBox x:Name="txBoParentEmail" HorizontalAlignment="Left" Margin="409,24,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="348"/>
+        <TextBlock HorizontalAlignment="Left" Margin="190,99,0,0" Grid.Row="1" TextWrapping="Wrap" Text="小孩昵称" VerticalAlignment="Top" Height="54" Width="193" FontSize="40"/>
+        <TextBox HorizontalAlignment="Left" Margin="409,99,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="348" Height="39"/>
+        <TextBlock HorizontalAlignment="Left" Margin="213,180,0,0" Grid.Row="1" TextWrapping="Wrap" Text="头像" VerticalAlignment="Top" Height="41" Width="116" FontSize="30" RenderTransformOrigin="0.476,-1.614"/>
+        <Image x:Name="imgChildPhoto" HorizontalAlignment="Left" Height="228" Margin="409,180,0,0" Grid.Row="1" VerticalAlignment="Top" Width="247"/>
+        <Button x:Name="btnChoose" Content="从本地选择" HorizontalAlignment="Left" Margin="772,221,0,0" Grid.Row="1" VerticalAlignment="Top" Height="66" Width="162" FontSize="25" Click="btnChoose_Click"/>
+        <Button x:Name="btnTakePhoto" Content="使用摄像头" HorizontalAlignment="Left" Margin="772,330,0,0" Grid.Row="1" VerticalAlignment="Top" Height="57" Width="162" FontSize="25" Click="btnTakePhoto_Click"/>
+        <TextBlock x:Name="txBlPath" HorizontalAlignment="Left" Margin="377,440,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="778" Text="{Binding Path}" FontSize="20"/>
+        <Button x:Name="btnYes" Content="注册" HorizontalAlignment="Left" Margin="377,516,0,0" Grid.Row="1" VerticalAlignment="Top" Height="81" Width="134" FontSize="40"/>
+        <Button x:Name="btnNo" Content="取消" HorizontalAlignment="Left" Margin="597,516,0,0" Grid.Row="1" VerticalAlignment="Top" Height="81" Width="120" FontSize="40"/>
 
         <VisualStateManager.VisualStateGroups>
 

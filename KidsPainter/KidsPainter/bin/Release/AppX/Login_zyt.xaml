@@ -35,6 +35,7 @@
             </Grid.ColumnDefinitions>
             <Button x:ConnectionId='2' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="亲爱的家长，欢迎登陆" Style="{StaticResource PageHeaderTextStyle}"/>
+            <Button x:ConnectionId='3' x:Name="btnToRegister" Content="还没账号？犹豫什么？&#xD;&#xA;赶快注册吧" Grid.Column="1" HorizontalAlignment="Left" Margin="784,10,0,-25" VerticalAlignment="Top" Height="155" Width="357" FontSize="30"                            />
         </Grid>
         <TextBlock HorizontalAlignment="Left" Margin="222,75,0,0" Grid.Row="1" TextWrapping="Wrap" Text="登录邮箱" VerticalAlignment="Top" Height="53" Width="173" FontSize="40"/>
         <TextBox x:Name="txBoEm" HorizontalAlignment="Left" Margin="469,75,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="388"/>
