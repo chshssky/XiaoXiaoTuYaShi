@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="KidsPainter.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KidsPainter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFF5DCDC">
+        <TextBlock HorizontalAlignment="Left" Margin="277,212,0,0" TextWrapping="Wrap" Text="登录邮箱" VerticalAlignment="Top" Height="55" Width="169" FontSize="40" Foreground="#FF070707"/>
+        <TextBox x:Name="txBoLoginEm" HorizontalAlignment="Left" Margin="497,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="396"/>
+        <TextBlock HorizontalAlignment="Left" Margin="222,46,0,0" TextWrapping="Wrap" Text="亲爱的家长，使用之前请先登录" VerticalAlignment="Top" Height="120" Width="939" Foreground="#FF0C0C0D" FontSize="60"/>
+        <TextBlock HorizontalAlignment="Left" Margin="305,333,0,0" TextWrapping="Wrap" Text="密码" VerticalAlignment="Top" Height="57" Width="103" FontSize="40" Foreground="#FF0C0B0B"/>
+        <TextBox x:Name="txBoLoginPsd" HorizontalAlignment="Left" Margin="497,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" Height="57"/>
+        <Button x:Name="btnLogin" Content="确定" HorizontalAlignment="Left" Margin="402,479,0,0" VerticalAlignment="Top" Height="68" Width="111" FontSize="30" Background="#FF3A3535"/>
+        <Button x:Name="btnCancel" Content="取消" HorizontalAlignment="Left" Margin="621,479,0,0" VerticalAlignment="Top" Height="68" Width="106" FontSize="30" Background="#FF3A3535"/>
+        <Button x:Name="btnRegister" Content="注册？" HorizontalAlignment="Left" Margin="1100,72,0,0" VerticalAlignment="Top" Height="94" Width="226" FontSize="50" Background="#FF595454"/>
+    </Grid>
+</Page>
+

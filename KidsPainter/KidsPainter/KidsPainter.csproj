@@ -115,6 +115,9 @@
       <DependentUpon>InputPassword.xaml</DependentUpon>
     </Compile>
     <Compile Include="ComponentsControl.cs" />
+    <Compile Include="Login_zyt.xaml.cs">
+      <DependentUpon>Login_zyt.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Message.cs" />
     <Compile Include="PasswordCheck.cs" />
     <Compile Include="ReturnElements.cs" />
@@ -205,6 +208,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="InputPassword.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login_zyt.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

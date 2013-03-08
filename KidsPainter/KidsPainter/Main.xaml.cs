@@ -73,7 +73,7 @@ namespace KidsPainter
                 this.Frame.Navigate(typeof(MainPage));
             }
         }
-        private async void btnSetting_Click(object sender, RoutedEventArgs e)
+        private void btnSetting_Click(object sender, RoutedEventArgs e)
         {
         /*    PasswordCheck psCheck = new PasswordCheck();
             Task<string> task = psCheck.check();
@@ -84,6 +84,14 @@ namespace KidsPainter
            {
                this.Frame.Navigate(typeof(BasicPage1));
            }
+        }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.Frame != null)
+            {
+                this.Frame.Navigate(typeof(Login_zyt));
+            }
         }
     }
 }

@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using KidsPainter;
+using Painter;
 
 // “空白应用程序”模板在 http://go.microsoft.com/fwlink/?LinkId=234227 上有介绍
 

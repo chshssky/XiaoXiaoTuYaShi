@@ -44,6 +44,7 @@ Assets\WriteText.png
 App.xaml
 Common\StandardStyles.xaml
 InputPassword.xaml
+Login_zyt.xaml
 Main.xaml
 MyUserControl.xaml
 PaintPage.xaml

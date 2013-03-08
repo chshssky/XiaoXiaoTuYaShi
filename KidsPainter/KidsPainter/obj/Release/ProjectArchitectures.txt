@@ -1,1 +1,1 @@
-C:\Users\昊\Downloads\KidsPainter-master\KidsPainter-master\KidsPainter\KidsPainter.csproj;neutral
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\KidsPainter.csproj;neutral
