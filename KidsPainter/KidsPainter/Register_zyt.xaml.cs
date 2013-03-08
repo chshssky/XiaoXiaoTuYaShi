@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using KidsPainter;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
 
 // “基本页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234237 上有介绍
 
@@ -99,6 +100,25 @@ namespace KidsPainter
             image.Source = returnEle.bitmapImage;
             imgChildPhoto.Source = returnEle.bitmapImage;
             txBlPath.Text = returnEle.filename; 
+        }
+
+        private void btnNo_Click(object sender, RoutedEventArgs e)
+        {
+            txBoParentEmail.Text = "";
+            txBlPath.Text = "";
+            txBoName.Text = "";    //点击取消按钮，是要把东西都清空还是返回登陆？清空的话，图片不能清空否则有点小问题
+        }
+
+        private void btnYes_Click(object sender, RoutedEventArgs e)
+        {
+            if (txBoParentEmail.Text.Equals("") || txBoName.Text.Equals("") || txBlPath.Text.Equals(""))
+                txBlShow.Text = "注册信息不完整"; // 判断是否填写不完整
+            else if (!psdBox1.Password.Equals(psdBox2.Password)) //两次密码不同
+                txBlShow.Text = "两次密码输入不同，请确认";
+            else if (!Regex.IsMatch(txBoParentEmail.Text, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"))
+                txBlShow.Text = "邮箱地址格式错误";
+            else 
+                txBlShow.Text = "成功"；
         }
 
 
