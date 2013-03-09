@@ -111,14 +111,19 @@ namespace KidsPainter
 
         private void btnYes_Click(object sender, RoutedEventArgs e)
         {
-            if (txBoParentEmail.Text.Equals("") || txBoName.Text.Equals("") || txBlPath.Text.Equals(""))
+            if (txBoParentEmail.Text.Equals("") || txBoName.Text.Equals("") || txBlPath.Text.Equals("") || txBoNum.Text.Equals(""))
                 txBlShow.Text = "注册信息不完整"; // 判断是否填写不完整
             else if (!psdBox1.Password.Equals(psdBox2.Password)) //两次密码不同
                 txBlShow.Text = "两次密码输入不同，请确认";
             else if (!Regex.IsMatch(txBoParentEmail.Text, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"))
                 txBlShow.Text = "邮箱地址格式错误";
-            else 
-                txBlShow.Text = "成功"；
+            else
+                txBlShow.Text = "成功";
+        }
+
+        private void btnGetNum_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
 
