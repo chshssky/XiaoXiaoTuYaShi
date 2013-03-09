@@ -51,6 +51,13 @@ namespace KidsPainter
 
         private void btnGetNum_Click(object sender, RoutedEventArgs e)
         {
+            
+        }
+        /*
+         * 把新邮箱发送到服务器，让服务器往此邮箱发送验证码
+         */
+        private void btnYes1_Click(object sender, RoutedEventArgs e)
+        {
             if (txBoOrgEmail.Text.Equals("") || txBoNewEmail.Text.Equals("") || txBoNum.Text.Equals("") || psdBox.Password.Equals(""))
                 txBlShow1.Text = "输入不完整，请检查";
             else
