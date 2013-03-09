@@ -121,11 +121,14 @@ namespace KidsPainter
                 txBlShow.Text = "成功";
         }
 
-        private void btnGetNum_Click(object sender, RoutedEventArgs e)
+        private void btnGetNum_Click(object sender, RoutedEventArgs e) 
         {
 
         }
 
+        /*点击此按钮时，先把邮箱地址发送到服务器上，服务器往该邮箱发送验证码同时把验证码发送
+         *到我这里，当我确定验证码和其他信息无误之后，再把必要信息发送到服务器上存储。
+         */
 
 
     }

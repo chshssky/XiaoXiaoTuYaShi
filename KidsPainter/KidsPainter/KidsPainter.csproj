@@ -109,6 +109,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ChangeInfo_zyt.xaml.cs">
+      <DependentUpon>ChangeInfo_zyt.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DrawShape.cs" />
     <Compile Include="FlagFactory.cs" />
     <Compile Include="InputPassword.xaml.cs">
@@ -210,6 +213,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="ChangeInfo_zyt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="InputPassword.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

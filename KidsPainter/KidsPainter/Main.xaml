@@ -101,6 +101,7 @@
         </Button>
         <TextBlock HorizontalAlignment="Left" Margin="608,390,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="191" Text="通讯录设置" Foreground="Black" FontSize="30" FontFamily="Microsoft YaHei" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="608,268,0,0" TextWrapping="Wrap" Text="涂鸦师" VerticalAlignment="Top" Height="47" Width="136" FontSize="30" FontWeight="Bold" FontFamily="Microsoft YaHei" Foreground="Black"/>
-        <Button x:Name="btnLogin" Content="登陆" HorizontalAlignment="Left" Margin="744,88,0,0" VerticalAlignment="Top" Height="65" Width="161" FontSize="40" Background="#FFF0E1E1" Foreground="#FF0C0B0B" Click="btnLogin_Click"/>
+        <Button x:Name="btnLogin" Content="登陆" HorizontalAlignment="Left" Margin="740,58,0,0" VerticalAlignment="Top" Height="65" Width="161" FontSize="40" Background="#FFF0E1E1" Foreground="#FF0C0B0B" Click="btnLogin_Click"/>
+        <Button x:Name="btnSettings" Content="设置" HorizontalAlignment="Left" Margin="740,157,0,0" VerticalAlignment="Top" Height="57" Width="161" Background="#FFE6D5D5" FontSize="30" Foreground="#FF1B1919" Click="btnSettings_Click"/>
     </Grid>
 </Page>

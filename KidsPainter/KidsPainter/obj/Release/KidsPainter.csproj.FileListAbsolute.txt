@@ -270,3 +270,6 @@ C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Rel
 C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Release\Register_zyt.g.i.cs
 C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Release\Register_zyt.g.cs
 C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Release\Register_zyt.xaml
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Release\ChangeInfo_zyt.g.i.cs
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Release\ChangeInfo_zyt.g.cs
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Release\ChangeInfo_zyt.xaml

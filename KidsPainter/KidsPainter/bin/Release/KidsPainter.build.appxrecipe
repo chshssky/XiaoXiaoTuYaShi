@@ -158,6 +158,9 @@
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\ChangeInfo_zyt.xaml">
+      <PackagePath>ChangeInfo_zyt.xaml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\InputPassword.xaml">
       <PackagePath>InputPassword.xaml</PackagePath>
     </AppxPackagedFile>
