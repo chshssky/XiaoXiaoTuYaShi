@@ -126,7 +126,11 @@ namespace KidsPainter
             Message.ShowToast("register OK");
         }
 
+<<<<<<< HEAD
         private async void register(String mail, String nick_name, String password)
+=======
+        private void btnGetNum_Click(object sender, RoutedEventArgs e) 
+>>>>>>> b92a453a8a6c894cab4ca12188392adb8789952d
         {
             try
             {
@@ -149,7 +153,7 @@ namespace KidsPainter
             }
         }
 
-        private void btnGetNum_Click(object sender, RoutedEventArgs e) 
+        private void btnGetNum_Click(object sender, RoutedEventArgs e)
         {
             
         }

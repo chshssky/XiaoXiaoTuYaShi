@@ -42,6 +42,7 @@ Assets\WaterBrush_Skyblue.jpg
 Assets\WaterBrush_Yellow.jpg
 Assets\WriteText.png
 App.xaml
+ChangeInfo_zyt.xaml
 Common\StandardStyles.xaml
 InputPassword.xaml
 Login_zyt.xaml

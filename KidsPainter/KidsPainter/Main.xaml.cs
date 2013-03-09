@@ -93,5 +93,14 @@ namespace KidsPainter
                 this.Frame.Navigate(typeof(Login_zyt));
             }
         }
+
+        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.Frame != null)
+                this.Frame.Navigate(typeof(ChangeInfo_zyt));
+        }
+        /*
+         * 此设置用于更改相关信息：登陆邮箱，密码，昵称，照片等等。
+         */
     }
 }

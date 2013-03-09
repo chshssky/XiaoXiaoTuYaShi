@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SHS</Machine>
+    <WindowsUser>昊</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>A1BCF693448A60FBFC42B928D5E91DE66A63BE8176DE543432C3533E0C68D28D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>28418.47593BC937300_3.0.0.1_neutral__knvs1r0f0yne0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>28418.47593BC937300_knvs1r0f0yne0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>28418.47593BC937300</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=B5624C29-BF25-4CBB-9A92-F05E181659BC</RegisteredPackagePublisher>
+    <RegisteredVersion>3.0.0.1</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+<<<<<<< HEAD
+      <Modified>2013-03-09T04:21:55.303</Modified>
+=======
+      <Modified>2013-03-09T09:49:32.944</Modified>
+>>>>>>> b92a453a8a6c894cab4ca12188392adb8789952d
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\KidsPainter.exe">
+      <PackagePath>KidsPainter.exe</PackagePath>
+<<<<<<< HEAD
+      <Modified>2013-03-09T14:55:52.208</Modified>
+=======
+      <Modified>2013-03-09T12:22:54.889</Modified>
+>>>>>>> b92a453a8a6c894cab4ca12188392adb8789952d
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\KidsPainter.pdb">
+      <PackagePath>KidsPainter.pdb</PackagePath>
+<<<<<<< HEAD
+      <Modified>2013-03-09T14:55:52.182</Modified>
+=======
+      <Modified>2013-03-09T12:22:54.862</Modified>
+>>>>>>> b92a453a8a6c894cab4ca12188392adb8789952d
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\packages\Newtonsoft.Json.4.5.11\lib\winrt45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2013-03-09T04:21:45.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\packages\parse.1.0.4\lib\netcore45\Parse.dll">
+      <PackagePath>Parse.dll</PackagePath>
+      <Modified>2013-03-09T03:47:51.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\packages\parse.1.0.4\lib\netcore45\Parse.WinRT.dll">
+      <PackagePath>Parse.WinRT.dll</PackagePath>
+      <Modified>2013-03-09T03:47:51.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\packages\Newtonsoft.Json.4.5.11\lib\winrt45\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+      <Modified>2013-03-09T04:21:45.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\packages\parse.1.0.4\lib\netcore45\Parse.xml">
+      <PackagePath>Parse.xml</PackagePath>
+      <Modified>2013-03-09T03:47:51.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\packages\parse.1.0.4\lib\netcore45\Parse.WinRT.xml">
+      <PackagePath>Parse.WinRT.xml</PackagePath>
+      <Modified>2013-03-09T03:47:51.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Background_question.jpg">
+      <PackagePath>Assets\Background_question.jpg</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Background_setting.jpg">
+      <PackagePath>Assets\Background_setting.jpg</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Background_write.jpg">
+      <PackagePath>Assets\Background_write.jpg</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\mainpage.jpg">
+      <PackagePath>Assets\mainpage.jpg</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Description.jpg">
+      <PackagePath>Assets\Description.jpg</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\WaterBrush_Black.jpg">
+      <PackagePath>Assets\WaterBrush_Black.jpg</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\WaterBrush_Blone.jpg">
+      <PackagePath>Assets\WaterBrush_Blone.jpg</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\WaterBrush_Purpuse.jpg">
+      <PackagePath>Assets\WaterBrush_Purpuse.jpg</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\WaterBrush_Skyblue.jpg">
+      <PackagePath>Assets\WaterBrush_Skyblue.jpg</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\WaterBrush_Yellow.jpg">
+      <PackagePath>Assets\WaterBrush_Yellow.jpg</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Eraser.png">
+      <PackagePath>Assets\Eraser.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\NewFile.png">
+      <PackagePath>Assets\NewFile.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\NewMail.png">
+      <PackagePath>Assets\NewMail.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\OilPastel.png">
+      <PackagePath>Assets\OilPastel.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\PictureLib.png">
+      <PackagePath>Assets\PictureLib.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\SendEmail.png">
+      <PackagePath>Assets\SendEmail.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\setting.png">
+      <PackagePath>Assets\setting.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\candy.png">
+      <PackagePath>Assets\Stamp\candy.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\cat.png">
+      <PackagePath>Assets\Stamp\cat.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\cow.png">
+      <PackagePath>Assets\Stamp\cow.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\dog.png">
+      <PackagePath>Assets\Stamp\dog.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\dragon.png">
+      <PackagePath>Assets\Stamp\dragon.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\Mario.png">
+      <PackagePath>Assets\Stamp\Mario.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\monkey.png">
+      <PackagePath>Assets\Stamp\monkey.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\moon.png">
+      <PackagePath>Assets\Stamp\moon.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\mouse.png">
+      <PackagePath>Assets\Stamp\mouse.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\mushroom.png">
+      <PackagePath>Assets\Stamp\mushroom.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\ninja.png">
+      <PackagePath>Assets\Stamp\ninja.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\pig.png">
+      <PackagePath>Assets\Stamp\pig.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\pikachu.png">
+      <PackagePath>Assets\Stamp\pikachu.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Stamp\star.png">
+      <PackagePath>Assets\Stamp\star.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\TakePhoto.png">
+      <PackagePath>Assets\TakePhoto.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\WaterBrush.png">
+      <PackagePath>Assets\WaterBrush.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\WaterBrush_Blue.png">
+      <PackagePath>Assets\WaterBrush_Blue.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\WaterBrush_Gray.png">
+      <PackagePath>Assets\WaterBrush_Gray.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\WaterBrush_Green.png">
+      <PackagePath>Assets\WaterBrush_Green.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\WaterBrush_Red.png">
+      <PackagePath>Assets\WaterBrush_Red.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\WriteText.png">
+      <PackagePath>Assets\WriteText.png</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\music.mp3">
+      <PackagePath>Assets\music.mp3</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+<<<<<<< HEAD
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\InputPassword.xaml">
+=======
+    <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\ChangeInfo_zyt.xaml">
+      <PackagePath>ChangeInfo_zyt.xaml</PackagePath>
+      <Modified>2013-03-09T12:22:51.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\InputPassword.xaml">
+>>>>>>> b92a453a8a6c894cab4ca12188392adb8789952d
+      <PackagePath>InputPassword.xaml</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\Login_zyt.xaml">
+      <PackagePath>Login_zyt.xaml</PackagePath>
+      <Modified>2013-03-08T12:42:36.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\Register_zyt.xaml">
+      <PackagePath>Register_zyt.xaml</PackagePath>
+<<<<<<< HEAD
+      <Modified>2013-03-09T02:24:25.115</Modified>
+=======
+      <Modified>2013-03-09T01:28:27.786</Modified>
+>>>>>>> b92a453a8a6c894cab4ca12188392adb8789952d
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\SetPassword.xaml">
+      <PackagePath>SetPassword.xaml</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\SettingPage.xaml">
+      <PackagePath>SettingPage.xaml</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\Main.xaml">
+      <PackagePath>Main.xaml</PackagePath>
+<<<<<<< HEAD
+      <Modified>2013-03-08T12:42:36.160</Modified>
+=======
+      <Modified>2013-03-09T09:49:27.652</Modified>
+>>>>>>> b92a453a8a6c894cab4ca12188392adb8789952d
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\PaintPage.xaml">
+      <PackagePath>PaintPage.xaml</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\MyUserControl.xaml">
+      <PackagePath>MyUserControl.xaml</PackagePath>
+      <Modified>2012-12-29T21:07:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\昊\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+<<<<<<< HEAD
+      <Modified>2013-03-09T02:26:12.812</Modified>
+=======
+      <Modified>2013-03-09T09:49:31.975</Modified>
+>>>>>>> b92a453a8a6c894cab4ca12188392adb8789952d
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

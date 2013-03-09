@@ -1,0 +1,123 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="KidsPainter.ChangeInfo_zyt"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KidsPainter"
+    xmlns:common="using:KidsPainter.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}" Background="#FFA4C3CD">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Style="{StaticResource PageHeaderTextStyle}">
+            	<Run Text="更改"/>
+            	<Run Text="用户个人信息"/>
+            </TextBlock>
+        </Grid>
+        <FlipView HorizontalAlignment="Left" Margin="64,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="1200">
+            <FlipViewItem x:Name="fvi1" FontSize="40" Width="1200">
+                <Grid>
+                    <TextBlock x:Name="txBoGuide" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="更改邮箱" VerticalAlignment="Top" Width="495"/>
+                    <TextBlock Text="原邮箱" Margin="0,140,677,420"></TextBlock>
+                    <TextBox x:Name="txBoOrgEmail" Margin="210,140,537,431"></TextBox>
+                    <TextBlock Margin="3,231,677,330" Text="新邮箱"></TextBlock>
+                    <TextBox x:Name="txBoNewEmail" Margin="210,231,537,340"></TextBox>
+                    <Button x:Name="btnGetNum" Margin="729,210,0,330" Height="72" Width="190" Content="点击获取邮箱&#xD;&#xA;验证码" Click="btnGetNum_Click" FontSize="20"></Button>
+                    <TextBlock Margin="0,329,661,234" Text="输入密码" FontSize="37"></TextBlock>
+                    <PasswordBox x:Name="psdBox" Margin="210,329,533,242"></PasswordBox>
+                    <TextBlock Margin="10,411,597,152" Text="邮箱验证码" FontSize="37" RenderTransformOrigin="0.511,2.043"/>
+                    <TextBox x:Name="txBoNum" Margin="210,411,734,152"/>
+                    <Button x:Name="btnYes1" Margin="193,517,0,23" Height="72" Width="190" Content="确定更改" Click="btnYes1_Click" FontSize="25"/>
+                    <TextBlock x:Name="txBlShow1" Margin="256,10,24,477" FontSize="37"/>
+                </Grid>
+            </FlipViewItem>
+            <FlipViewItem x:Name="fvi2" FontSize="40" Width="1139" Background="{x:Null}" Foreground="{x:Null}" Height="598">
+                <Grid HorizontalAlignment="Left" Height="598" VerticalAlignment="Top" Width="1131">
+                    <TextBlock Margin="0,10,367,515" Foreground="#FF1F1B1B" Text="修改密码"></TextBlock>
+                    <TextBlock Margin="10,113,970,433" Foreground="#FF1F1B1B" Text="旧密码"/>
+                    <TextBox Margin="211,107,456,433"></TextBox>
+                    <TextBlock Margin="0,192,980,354" Foreground="#FF1F1B1B">
+                    	<Run Text="新"/>
+                    	<Run Text="密码"/>
+                    </TextBlock>
+                    <TextBox Margin="211,192,456,348"/>
+                    <Button x:Name="btnYes2" Margin="395,336,0,181" RenderTransformOrigin="-3.906,-0.417" Height="81" Width="195" Content="确认更改" FontSize="25" Click="btnYes2_Click"></Button>
+                </Grid>
+
+            </FlipViewItem>
+            <FlipViewItem x:Name="fvi3" FontSize="40" Width="469">
+                <Grid HorizontalAlignment="Left" Height="612" VerticalAlignment="Top" Width="1194">
+                    <TextBlock Margin="10,10,560,523" Text="更改昵称" FontSize="50"></TextBlock>
+                    <TextBlock Margin="0,128,1052,423" Text="新昵称" FontSize="40"/>
+                    <TextBox Margin="164,128,703,429"></TextBox>
+                    <Button x:Name="btnYes3" Margin="225,278,0,285" Height="49" Width="144" Content="确定" FontSize="25"></Button>
+                </Grid>
+            </FlipViewItem>
+            <FlipViewItem x:Name="fvi4" FontSize="40" Width="469">
+                <Grid HorizontalAlignment="Left" Height="612" VerticalAlignment="Top" Width="1194">
+                    <TextBlock Margin="10,10,511,515" Text="更改头像"></TextBlock>
+                    <Image x:Name="imgPhoto" Margin="62,124,729,164"></Image>
+                    <Button x:Name="btnChoose" Margin="512,124,0,425" Height="63" Width="171" Content="本地选择" FontSize="25" Click="btnChoose_Click"></Button>
+                    <Button x:Name="btnTakePhoto" Margin="512,215,0,334" Height="63" Width="171" Content="使用摄像头" FontSize="25" Click="btnTakePhoto_Click"/>
+                    <Button Margin="271,522,0,27" Height="63" Width="171" Content="确定" FontSize="25"/>
+                    <TextBlock x:Name="txBlPath" Margin="62,453,459,111" Text="{Binding Path}"/>
+                </Grid>
+            </FlipViewItem>
+        </FlipView>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>

@@ -38,7 +38,7 @@
         </Grid>
         <TextBlock HorizontalAlignment="Left" Margin="42,5,0,0" Grid.Row="1" TextWrapping="Wrap" Text="家长邮箱" VerticalAlignment="Top" Height="38" Width="193" FontSize="40"/>
         <TextBox x:Name="txBoParentEmail" HorizontalAlignment="Left" Margin="240,5,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="348"/>
-        <TextBlock HorizontalAlignment="Left" Margin="23,63,0,0" Grid.Row="1" TextWrapping="Wrap" Text="小孩昵称" VerticalAlignment="Top" Height="44" Width="193" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,63,0,0" Grid.Row="1" TextWrapping="Wrap" Text="小孩昵称" VerticalAlignment="Top" Height="44" Width="172" FontSize="40"/>
         <TextBox x:Name="txBoName" HorizontalAlignment="Left" Margin="240,68,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="348" Height="39"/>
         <TextBlock HorizontalAlignment="Left" Margin="925,83,0,0" Grid.Row="1" TextWrapping="Wrap" Text="头像" VerticalAlignment="Top" Height="41" Width="116" FontSize="30" RenderTransformOrigin="0.476,-1.614"/>
         <Image x:Name="imgChildPhoto" HorizontalAlignment="Left" Height="228" Margin="879,140,0,0" Grid.Row="1" VerticalAlignment="Top" Width="247"/>

@@ -11,10 +11,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using KidsPainter;
 using System.Threading.Tasks;
-using System.Text.RegularExpressions;
-using Parse;
 
 // “基本页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234237 上有介绍
 
@@ -23,9 +20,9 @@ namespace KidsPainter
     /// <summary>
     /// 基本页，提供大多数应用程序通用的特性。
     /// </summary>
-    public sealed partial class Register_zyt : KidsPainter.Common.LayoutAwarePage
+    public sealed partial class ChangeInfo_zyt : KidsPainter.Common.LayoutAwarePage
     {
-        public Register_zyt()
+        public ChangeInfo_zyt()
         {
             this.InitializeComponent();
         }
@@ -53,7 +50,34 @@ namespace KidsPainter
         {
         }
 
-        private async void btnChoose_Click(object sender, RoutedEventArgs e) //从本地选择照片
+        private void btnGetNum_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+        /*
+         * 把新邮箱发送到服务器，让服务器往此邮箱发送验证码
+         */
+        private void btnYes1_Click(object sender, RoutedEventArgs e) //修改邮箱的确定键
+        {
+            if (txBoOrgEmail.Text.Equals("") || txBoNewEmail.Text.Equals("") || txBoNum.Text.Equals("") || psdBox.Password.Equals(""))
+                txBlShow1.Text = "输入不完整，请检查";
+            else
+                txBlShow1.Text = "成功";
+        }
+        /*
+       *修改邮箱部分，查看各种输入是否合法 
+       */
+
+
+        private void btnYes2_Click(object sender, RoutedEventArgs e) //修改密码的确定键
+        {
+
+        }
+        /*
+         * 把数据提交给服务器，获得返回值，判断是否修改成功。修改成功则跳转到主界面
+         */
+
+        private async void btnChoose_Click(object sender, RoutedEventArgs e)
         {
             if (Windows.UI.ViewManagement.ApplicationView.Value != Windows.UI.ViewManagement.ApplicationViewState.Snapped ||
                  Windows.UI.ViewManagement.ApplicationView.TryUnsnap() == true)
@@ -84,80 +108,30 @@ namespace KidsPainter
                         new Windows.UI.Xaml.Media.Imaging.BitmapImage();
 
                     bitmapImage.SetSource(fileStream);
-                    imgChildPhoto.Source = bitmapImage;
+                    imgPhoto.Source = bitmapImage;
                     this.DataContext = file; // 将storageFile设置为照片页面的DataContext
 
                     // mruToken = Windows.Storage.AccessCache.StorageApplicationPermissions.MostRecentlyUsedList.Add(file);
                 }
             }
+
+
+
+
         }
 
-        private async void btnTakePhoto_Click(object sender, RoutedEventArgs e)  // 使用摄像头拍照
+        private async void btnTakePhoto_Click(object sender, RoutedEventArgs e)
         {
             PhotoTaker phTaker = new PhotoTaker();
-            Task<ReturnElements> task = phTaker.takePhoto(imgChildPhoto.Width, imgChildPhoto.Height);
+            Task<ReturnElements> task = phTaker.takePhoto(imgPhoto.Width, imgPhoto.Height);
             ReturnElements returnEle = await task;
             Image image = new Image();
             image.Source = returnEle.bitmapImage;
-            imgChildPhoto.Source = returnEle.bitmapImage;
+            imgPhoto.Source = returnEle.bitmapImage;
             txBlPath.Text = returnEle.filename; 
         }
-
-        private void btnNo_Click(object sender, RoutedEventArgs e)
-        {
-            txBoParentEmail.Text = "";
-            txBlPath.Text = "";
-            txBoName.Text = "";    //点击取消按钮，是要把东西都清空还是返回登陆？清空的话，图片不能清空否则有点小问题
-        }
-
-        private void btnYes_Click(object sender, RoutedEventArgs e)
-        {
-            if (txBoParentEmail.Text.Equals("") || txBoName.Text.Equals("") || txBlPath.Text.Equals("") || txBoNum.Text.Equals(""))
-                txBlShow.Text = "注册信息不完整"; // 判断是否填写不完整
-            else if (!psdBox1.Password.Equals(psdBox2.Password)) //两次密码不同
-                txBlShow.Text = "两次密码输入不同，请确认";
-            else if (!Regex.IsMatch(txBoParentEmail.Text, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"))
-                txBlShow.Text = "邮箱地址格式错误";
-            else
-                txBlShow.Text = "成功";
-         
-            register(txBoParentEmail.Text, txBoName.Text, psdBox1.Password);
-
-            Message.ShowToast("register OK");
-        }
-
-        private async void register(String mail, String nick_name, String password)
-        {
-            try
-            {
-                var user = new ParseUser()
-                {
-                    Username = nick_name,
-                    Password = password,
-                    Email = mail
-                };
-                
-                // other fields can be set just like with ParseObject
-                user["photoPath"] = nick_name + mail;
-                user["emailVerified"] = false;
-
-                await user.SignUpAsync();
-            }
-            catch (Exception error)
-            {
-                Message.ShowDialog("用户名重复！");
-            }
-        }
-
-        private void btnGetNum_Click(object sender, RoutedEventArgs e) 
-        {
-            
-        }
-
-        /*点击此按钮时，先把邮箱地址发送到服务器上，服务器往该邮箱发送验证码同时把验证码发送
-         *到我这里，当我确定验证码和其他信息无误之后，再把必要信息发送到服务器上存储。
-         */
-
+        
+      
 
     }
 }
