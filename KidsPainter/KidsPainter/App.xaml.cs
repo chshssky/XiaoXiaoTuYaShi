@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using KidsPainter;
-using Painter;
+using Parse;
 
 // “空白应用程序”模板在 http://go.microsoft.com/fwlink/?LinkId=234227 上有介绍
 
@@ -34,6 +34,9 @@ namespace KidsPainter
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            // 初始化 Parse 
+            ParseClient.Initialize("tiXclkC5ZQz5ZvyHIoQyJGaPbSZFiEgxZkUXEcdI", "merXAsSTTnD9xA3Em6Ssk1zJ9h6ZurHSZ4N3kHOs");
         }
 
         /// <summary>
@@ -42,8 +45,9 @@ namespace KidsPainter
         /// 将使用其他入口点。
         /// </summary>
         /// <param name="args">有关启动请求和过程的详细信息。</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs args)
+        protected override async void OnLaunched(LaunchActivatedEventArgs args)
         {
+
             Frame rootFrame = Window.Current.Content as Frame;
 
             // 不要在窗口已包含内容时重复应用程序初始化，
@@ -74,6 +78,12 @@ namespace KidsPainter
             }
             // 确保当前窗口处于活动状态
             Window.Current.Activate();
+
+            // Test Parse:
+            var testObject = new ParseObject("TestObject");
+            testObject["foo"] = "bar";
+            await testObject.SaveAsync();
+
         }
 
         /// <summary>

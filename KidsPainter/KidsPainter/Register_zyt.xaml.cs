@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Navigation;
 using KidsPainter;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
+using Parse;
 
 // “基本页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234237 上有介绍
 
@@ -119,11 +120,38 @@ namespace KidsPainter
                 txBlShow.Text = "邮箱地址格式错误";
             else
                 txBlShow.Text = "成功";
+         
+            register(txBoParentEmail.Text, txBoName.Text, psdBox1.Password);
+
+            Message.ShowToast("register OK");
+        }
+
+        private async void register(String mail, String nick_name, String password)
+        {
+            try
+            {
+                var user = new ParseUser()
+                {
+                    Username = nick_name,
+                    Password = password,
+                    Email = mail
+                };
+                
+                // other fields can be set just like with ParseObject
+                user["photoPath"] = nick_name + mail;
+                user["emailVerified"] = false;
+
+                await user.SignUpAsync();
+            }
+            catch (Exception error)
+            {
+                Message.ShowDialog("用户名重复！");
+            }
         }
 
         private void btnGetNum_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
 

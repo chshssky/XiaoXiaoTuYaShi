@@ -102,9 +102,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="AgreementControl.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -204,6 +201,7 @@
     <None Include="KidsPainter_StoreKey.pfx" />
     <None Include="KidsPainter_TemporaryKey.pfx" />
     <None Include="Package.StoreAssociation.xml" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -246,6 +244,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\winrt45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Parse">
+      <HintPath>..\packages\parse.1.0.4\lib\netcore45\Parse.dll</HintPath>
+    </Reference>
+    <Reference Include="Parse.WinRT">
+      <HintPath>..\packages\parse.1.0.4\lib\netcore45\Parse.WinRT.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
     <VisualStudioVersion>11.0</VisualStudioVersion>

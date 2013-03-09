@@ -12,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Parse;
+
 
 // “基本页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234237 上有介绍
 
@@ -50,11 +52,13 @@ namespace KidsPainter
         {
         }
 
-        private void btnYes_Click(object sender, RoutedEventArgs e)
+        private async void btnYes_Click(object sender, RoutedEventArgs e)
         {
             string emptyHint = "您好，邮箱地址或者密码不能为空";
             string wrongEmHint = "您好，您输入的邮箱地址格式不正确";
             string rightHint = "您好，输入正确";
+            string errorHint = "登陆失败";
+
             if (txBoEm.Text.Equals("") || pdBox.Password.Equals(""))
                 txBlShow.Text = emptyHint;
             else if (!Regex.IsMatch(txBoEm.Text, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"))
@@ -64,6 +68,23 @@ namespace KidsPainter
             {
                 txBlShow.Text = rightHint;
             }
+
+            // login ~
+            try
+            {
+                await ParseUser.LogInAsync(txBoEm.Text, pdBox.Password);
+                // Login was successful.
+                txBlShow.Text = "登陆成功~~";
+                Message.ShowDialog("!!!!!!!!!!!!!!!!!success");
+            }
+            catch (Exception error)
+            {
+                // The login failed. Check the error to see why.
+                txBlShow.Text = errorHint;
+                Message.ShowDialog("!!!!!!!!!!!!!!!!!failed");
+            }
+
+
         }
 
         private void btnToRegister_Click(object sender, RoutedEventArgs e)
