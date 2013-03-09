@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Threading.Tasks;
 
 // “基本页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234237 上有介绍
 
@@ -56,7 +57,7 @@ namespace KidsPainter
         /*
          * 把新邮箱发送到服务器，让服务器往此邮箱发送验证码
          */
-        private void btnYes1_Click(object sender, RoutedEventArgs e)
+        private void btnYes1_Click(object sender, RoutedEventArgs e) //修改邮箱的确定键
         {
             if (txBoOrgEmail.Text.Equals("") || txBoNewEmail.Text.Equals("") || txBoNum.Text.Equals("") || psdBox.Password.Equals(""))
                 txBlShow1.Text = "输入不完整，请检查";
@@ -64,9 +65,73 @@ namespace KidsPainter
                 txBlShow1.Text = "成功";
         }
         /*
-         *修改邮箱部分，查看各种输入是否合法 
+       *修改邮箱部分，查看各种输入是否合法 
+       */
+
+
+        private void btnYes2_Click(object sender, RoutedEventArgs e) //修改密码的确定键
+        {
+
+        }
+        /*
+         * 把数据提交给服务器，获得返回值，判断是否修改成功。修改成功则跳转到主界面
          */
 
+        private async void btnChoose_Click(object sender, RoutedEventArgs e)
+        {
+            if (Windows.UI.ViewManagement.ApplicationView.Value != Windows.UI.ViewManagement.ApplicationViewState.Snapped ||
+                 Windows.UI.ViewManagement.ApplicationView.TryUnsnap() == true)
+            {
+                Windows.Storage.Pickers.FileOpenPicker openPicker = new Windows.Storage.Pickers.FileOpenPicker();
+                openPicker.SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.PicturesLibrary;
+                openPicker.ViewMode = Windows.Storage.Pickers.PickerViewMode.Thumbnail;
+
+                // Filter to include a sample subset of file types.
+                openPicker.FileTypeFilter.Clear();
+                openPicker.FileTypeFilter.Add(".bmp");
+                openPicker.FileTypeFilter.Add(".png");
+                openPicker.FileTypeFilter.Add(".jpeg");
+                openPicker.FileTypeFilter.Add(".jpg");
+
+                // Open the file picker.
+                Windows.Storage.StorageFile file = await openPicker.PickSingleFileAsync();
+
+                // file is null if user cancels the file picker.
+                if (file != null)
+                {
+                    // Open a stream for the selected file.
+                    Windows.Storage.Streams.IRandomAccessStream fileStream =
+                        await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
+
+                    // Set the image source to the selected bitmap.
+                    Windows.UI.Xaml.Media.Imaging.BitmapImage bitmapImage =
+                        new Windows.UI.Xaml.Media.Imaging.BitmapImage();
+
+                    bitmapImage.SetSource(fileStream);
+                    imgPhoto.Source = bitmapImage;
+                    this.DataContext = file; // 将storageFile设置为照片页面的DataContext
+
+                    // mruToken = Windows.Storage.AccessCache.StorageApplicationPermissions.MostRecentlyUsedList.Add(file);
+                }
+            }
+
+
+
+
+        }
+
+        private async void btnTakePhoto_Click(object sender, RoutedEventArgs e)
+        {
+            PhotoTaker phTaker = new PhotoTaker();
+            Task<ReturnElements> task = phTaker.takePhoto(imgPhoto.Width, imgPhoto.Height);
+            ReturnElements returnEle = await task;
+            Image image = new Image();
+            image.Source = returnEle.bitmapImage;
+            imgPhoto.Source = returnEle.bitmapImage;
+            txBlPath.Text = returnEle.filename; 
+        }
+        
+      
 
     }
 }

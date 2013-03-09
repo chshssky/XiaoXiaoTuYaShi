@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\KidsPainter.exe">
       <PackagePath>KidsPainter.exe</PackagePath>
-      <Modified>2013-03-09T10:54:14.066</Modified>
+      <Modified>2013-03-09T12:22:54.889</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\KidsPainter.pdb">
       <PackagePath>KidsPainter.pdb</PackagePath>
-      <Modified>2013-03-09T10:54:14.043</Modified>
+      <Modified>2013-03-09T12:22:54.862</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\Assets\Background_question.jpg">
       <PackagePath>Assets\Background_question.jpg</PackagePath>
@@ -214,7 +214,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\ChangeInfo_zyt.xaml">
       <PackagePath>ChangeInfo_zyt.xaml</PackagePath>
-      <Modified>2013-03-09T10:54:11.077</Modified>
+      <Modified>2013-03-09T12:22:51.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Release\InputPassword.xaml">
       <PackagePath>InputPassword.xaml</PackagePath>
