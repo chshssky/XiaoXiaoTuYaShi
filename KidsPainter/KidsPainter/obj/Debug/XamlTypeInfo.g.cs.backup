@@ -112,7 +112,23 @@ namespace KidsPainter.KidsPainter_XamlTypeInfo
             }
         }
 
-        private object Activate_0_MainPage() { return new global::Painter.MainPage(); }
+        private object Activate_0_LayoutAwarePage() { return new global::KidsPainter.Common.LayoutAwarePage(); }
+
+        private object Activate_1_ChangeInfo_zyt() { return new global::KidsPainter.ChangeInfo_zyt(); }
+
+        private object Activate_2_InputPassword() { return new global::KidsPainter.InputPassword(); }
+
+        private object Activate_3_Login_zyt() { return new global::KidsPainter.Login_zyt(); }
+
+        private object Activate_4_Register_zyt() { return new global::KidsPainter.Register_zyt(); }
+
+        private object Activate_5_SetPassword() { return new global::KidsPainter.SetPassword(); }
+
+        private object Activate_6_BasicPage1() { return new global::KidsPainter.BasicPage1(); }
+
+        private object Activate_7_Main() { return new global::KidsPainter.Main(); }
+
+        private object Activate_8_MainPage() { return new global::Painter.MainPage(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
@@ -130,9 +146,62 @@ namespace KidsPainter.KidsPainter_XamlTypeInfo
                 xamlType = new global::KidsPainter.KidsPainter_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.UserControl));
                 break;
 
+            case "KidsPainter.Common.LayoutAwarePage":
+                userType = new global::KidsPainter.KidsPainter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KidsPainter.Common.LayoutAwarePage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_0_LayoutAwarePage;
+                xamlType = userType;
+                break;
+
+            case "KidsPainter.ChangeInfo_zyt":
+                userType = new global::KidsPainter.KidsPainter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KidsPainter.ChangeInfo_zyt), GetXamlTypeByName("KidsPainter.Common.LayoutAwarePage"));
+                userType.Activator = Activate_1_ChangeInfo_zyt;
+                xamlType = userType;
+                break;
+
+            case "KidsPainter.InputPassword":
+                userType = new global::KidsPainter.KidsPainter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KidsPainter.InputPassword), GetXamlTypeByName("KidsPainter.Common.LayoutAwarePage"));
+                userType.Activator = Activate_2_InputPassword;
+                xamlType = userType;
+                break;
+
+            case "KidsPainter.Login_zyt":
+                userType = new global::KidsPainter.KidsPainter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KidsPainter.Login_zyt), GetXamlTypeByName("KidsPainter.Common.LayoutAwarePage"));
+                userType.Activator = Activate_3_Login_zyt;
+                xamlType = userType;
+                break;
+
+            case "KidsPainter.Register_zyt":
+                userType = new global::KidsPainter.KidsPainter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KidsPainter.Register_zyt), GetXamlTypeByName("KidsPainter.Common.LayoutAwarePage"));
+                userType.Activator = Activate_4_Register_zyt;
+                xamlType = userType;
+                break;
+
+            case "KidsPainter.SetPassword":
+                userType = new global::KidsPainter.KidsPainter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KidsPainter.SetPassword), GetXamlTypeByName("KidsPainter.Common.LayoutAwarePage"));
+                userType.Activator = Activate_5_SetPassword;
+                xamlType = userType;
+                break;
+
+            case "KidsPainter.BasicPage1":
+                userType = new global::KidsPainter.KidsPainter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KidsPainter.BasicPage1), GetXamlTypeByName("KidsPainter.Common.LayoutAwarePage"));
+                userType.Activator = Activate_6_BasicPage1;
+                xamlType = userType;
+                break;
+
+            case "KidsPainter.Main":
+                userType = new global::KidsPainter.KidsPainter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KidsPainter.Main), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_Main;
+                xamlType = userType;
+                break;
+
             case "Painter.MainPage":
                 userType = new global::KidsPainter.KidsPainter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::Painter.MainPage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_8_MainPage;
+                xamlType = userType;
+                break;
+
+            case "KidsPainter.MyUserControl":
+                userType = new global::KidsPainter.KidsPainter_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::KidsPainter.MyUserControl), GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
                 xamlType = userType;
                 break;
 

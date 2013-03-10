@@ -7,10 +7,10 @@
 
     有关程序包清单文件的详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="176421a3-dfcf-4c91-b410-f2057572c903" Publisher="CN=加滨" Version="1.0.0.0" ProcessorArchitecture="neutral" />
+  <Identity Name="28418.47593BC937300" Publisher="CN=B5624C29-BF25-4CBB-9A92-F05E181659BC" Version="3.0.0.1" ProcessorArchitecture="neutral" />
   <Properties>
-    <DisplayName>KidsPainter</DisplayName>
-    <PublisherDisplayName>加滨</PublisherDisplayName>
+    <DisplayName>小小涂鸦师</DisplayName>
+    <PublisherDisplayName>同济大学</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -22,7 +22,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="KidsPainter.exe" EntryPoint="KidsPainter.App">
-      <VisualElements DisplayName="小小涂鸦师" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="KidsPainter" ForegroundText="light" BackgroundColor="#464646">
+      <VisualElements DisplayName="小小涂鸦师" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="KidsPainter" ForegroundText="light" BackgroundColor="#0099CC" ToastCapable="true">
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#efc07c" />
         <InitialRotationPreference>
@@ -32,8 +32,12 @@
     </Application>
   </Applications>
   <Capabilities>
+    <Capability Name="internetClientServer" />
+    <Capability Name="privateNetworkClientServer" />
+    <Capability Name="picturesLibrary" />
     <Capability Name="internetClient" />
     <DeviceCapability Name="webcam" />
+    <DeviceCapability Name="location" />
   </Capabilities>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5" />

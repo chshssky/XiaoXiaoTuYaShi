@@ -23,6 +23,11 @@ namespace KidsPainter
     /// <summary>
     /// 基本页，提供大多数应用程序通用的特性。
     /// </summary>
+    /// 
+    class RegisterResult
+    {
+        public int ifSuccess;
+    }
     public sealed partial class Register_zyt : KidsPainter.Common.LayoutAwarePage
     {
         public Register_zyt()
@@ -97,8 +102,8 @@ namespace KidsPainter
             PhotoTaker phTaker = new PhotoTaker();
             Task<ReturnElements> task = phTaker.takePhoto(imgChildPhoto.Width, imgChildPhoto.Height);
             ReturnElements returnEle = await task;
-            Image image = new Image();
-            image.Source = returnEle.bitmapImage;
+          //  Image image = new Image();
+           // image.Source = returnEle.bitmapImage;
             imgChildPhoto.Source = returnEle.bitmapImage;
             txBlPath.Text = returnEle.filename; 
         }
@@ -110,7 +115,7 @@ namespace KidsPainter
             txBoName.Text = "";    //点击取消按钮，是要把东西都清空还是返回登陆？清空的话，图片不能清空否则有点小问题
         }
 
-        private void btnYes_Click(object sender, RoutedEventArgs e)
+        private async void btnYes_Click(object sender, RoutedEventArgs e)
         {
             if (txBoParentEmail.Text.Equals("") || txBoName.Text.Equals("") || txBlPath.Text.Equals("") || txBoNum.Text.Equals(""))
                 txBlShow.Text = "注册信息不完整"; // 判断是否填写不完整
@@ -119,15 +124,20 @@ namespace KidsPainter
             else if (!Regex.IsMatch(txBoParentEmail.Text, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"))
                 txBlShow.Text = "邮箱地址格式错误";
             else
-                txBlShow.Text = "成功";
-         
-            register(txBoParentEmail.Text, txBoName.Text, psdBox1.Password);
+            {
+                Task<RegisterResult> rrTask = register(txBoParentEmail.Text, txBoName.Text, psdBox1.Password);
+                RegisterResult registerRes = await rrTask;
+                if (registerRes.ifSuccess == 1)
+                {
+                    Message.ShowToast("register OK");
+                }
 
-            Message.ShowToast("register OK");
+            }
         }
 
-        private async void register(String mail, String nick_name, String password)
+        private async Task<RegisterResult> register(String mail, String nick_name, String password)
         {
+            RegisterResult rr = new RegisterResult();
             try
             {
                 var user = new ParseUser()
@@ -142,10 +152,15 @@ namespace KidsPainter
                 user["emailVerified"] = false;
 
                 await user.SignUpAsync();
+                
+                rr.ifSuccess = 1;
+                return rr;
             }
             catch (Exception error)
             {
+                rr.ifSuccess = 0;
                 Message.ShowDialog("用户名重复！");
+                return rr;
             }
         }
 
