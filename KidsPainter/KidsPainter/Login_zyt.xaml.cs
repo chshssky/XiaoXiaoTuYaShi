@@ -66,24 +66,25 @@ namespace KidsPainter
                
             else
             {
-                txBlShow.Text = rightHint;
+                // login ~
+                try
+                {
+                    await ParseUser.LogInAsync(txBoEm.Text, pdBox.Password);
+                    // Login was successful.
+                    txBlShow.Text = "登陆成功~~";
+                    Message.ShowDialog("!!!!!!!!!!!!!!!!!success");
+
+                }
+                catch (Exception error)
+                {
+                    // The login failed. Check the error to see why.
+                    txBlShow.Text = errorHint;
+                    Message.ShowDialog("!!!!!!!!!!!!!!!!!failed");
+                }
+
             }
 
-            // login ~
-            try
-            {
-                await ParseUser.LogInAsync(txBoEm.Text, pdBox.Password);
-                // Login was successful.
-                txBlShow.Text = "登陆成功~~";
-                Message.ShowDialog("!!!!!!!!!!!!!!!!!success");
-            }
-            catch (Exception error)
-            {
-                // The login failed. Check the error to see why.
-                txBlShow.Text = errorHint;
-                Message.ShowDialog("!!!!!!!!!!!!!!!!!failed");
-            }
-
+           
 
         }
 
