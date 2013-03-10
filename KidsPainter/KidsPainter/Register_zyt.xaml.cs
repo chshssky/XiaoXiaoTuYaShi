@@ -143,14 +143,15 @@ namespace KidsPainter
             {
                 var user = new ParseUser()
                 {
-                    Username = nick_name,
+                    Username = mail,
                     Password = password,
                     Email = mail
                 };
                 
                 // other fields can be set just like with ParseObject
                 user["photoPath"] = nick_name + mail;
-                user["emailVerified"] = false;
+                //user["emailVerified"] = false;
+                user["nickName"] = nick_name;
 
                 await user.SignUpAsync();
                 
