@@ -58,7 +58,7 @@ namespace KidsPainter
             string wrongEmHint = "您好，您输入的邮箱地址格式不正确";
             string rightHint = "您好，输入正确";
             string errorHint = "登陆失败";
-
+            string email = txBoEm.Text;
             if (txBoEm.Text.Equals("") || pdBox.Password.Equals(""))
                 txBlShow.Text = emptyHint;
             else if (!Regex.IsMatch(txBoEm.Text, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"))
@@ -71,8 +71,10 @@ namespace KidsPainter
                 {
                     await ParseUser.LogInAsync(txBoEm.Text, pdBox.Password);
                     // Login was successful.
-                    txBlShow.Text = "登陆成功~~";
+                    //txBlShow.Text = "登陆成功~~";
                     Message.ShowDialog("!!!!!!!!!!!!!!!!!success");
+                    if (this.Frame != null)
+                        this.Frame.Navigate(typeof(Login_zyt), new { A = email });  //跳转过去时，同时要把用户名参数传过去
 
                 }
                 catch (Exception error)

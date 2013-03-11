@@ -29,6 +29,7 @@ namespace KidsPainter
     /// 
     public sealed partial class Main : Page
     {
+        string email;
         private AgreementControl agCon = new AgreementControl();
         public Main()
         {
@@ -56,6 +57,9 @@ namespace KidsPainter
         /// 属性通常用于配置页。</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            dynamic par = e.Parameter;
+            email = par.A;
+            base.OnNavigatedTo(e);
         }
         private void closeDialog(IUICommand command)
         {
@@ -99,6 +103,8 @@ namespace KidsPainter
             if (this.Frame != null)
                 this.Frame.Navigate(typeof(ChangeInfo_zyt));
         }
+
+ 
         /*
          * 此设置用于更改相关信息：登陆邮箱，密码，昵称，照片等等。
          */
