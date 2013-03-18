@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\KidsPainter.exe">
       <PackagePath>KidsPainter.exe</PackagePath>
-      <Modified>2013-03-11T01:48:21.369</Modified>
+      <Modified>2013-03-18T09:07:53.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\KidsPainter.pdb">
       <PackagePath>KidsPainter.pdb</PackagePath>
-      <Modified>2013-03-11T01:48:21.344</Modified>
+      <Modified>2013-03-18T09:07:53.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\packages\Newtonsoft.Json.4.5.11\lib\winrt45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -270,7 +270,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\PaintPage.xaml">
       <PackagePath>PaintPage.xaml</PackagePath>
-      <Modified>2013-03-10T05:28:05.230</Modified>
+      <Modified>2013-03-18T09:05:46.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\MyUserControl.xaml">
       <PackagePath>MyUserControl.xaml</PackagePath>

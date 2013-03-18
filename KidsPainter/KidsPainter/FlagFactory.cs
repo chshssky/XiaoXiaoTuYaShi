@@ -57,8 +57,8 @@ namespace KidsPainter
             DragPic = null;
             IsGetScreenSucccess = false;
             strContent = "";
-            PainterHeight = ScreenHeight - 180;
-            PainterWidth = ScreenWidth - 80;
+            PainterHeight = ScreenHeight; //改成整个屏幕的
+            PainterWidth = ScreenWidth;
             BitmapOutput = new WriteableBitmap((int)PainterWidth,(int)PainterHeight);
         }
 

@@ -6,7 +6,7 @@
     xmlns:common="using:KidsPainter.Common"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Margin="2,0,-2,0">
 
     <Page.Resources>
         <Style TargetType="Button">
@@ -141,127 +141,13 @@
 
     </Page.Resources>
 
-    <Grid 
-        Name ="ContentGrid" Background="Orange">
-
+    <Grid x:Name ="ContentGrid">
+        <Button x:Name="backButton" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}" Margin="112,0,0,662" RenderTransformOrigin="-0.986,0.45" Height="48" Width="53" Background="#B3FFFFFF" Click="GoBack" Canvas.ZIndex="4"/>
         <MediaElement x:Name="MusicPlayer" HorizontalAlignment="Left" Height="100" Margin="65,162,0,0" VerticalAlignment="Top" Width="100" IsLooping="True" Source="Assets/music.mp3"/>
 
-        <Button x:Name="backButton" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}" Margin="153,0,0,654" RenderTransformOrigin="-0.986,0.45" Height="48" Width="53" Background="#B3FFFFFF" Click="GoBack"/>
-        <Button x:Name="Button_new_Copy" Content="" HorizontalAlignment="Left" Margin="282,37,0,0" VerticalAlignment="Top" Click="Click_ButtonNew" Width="96" Height="96" BorderThickness="0" RenderTransformOrigin="0.5,0.5">
-        	<Button.RenderTransform>
-        		<CompositeTransform/>
-        	</Button.RenderTransform>
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:/Assets/NewFile.png" Stretch="Uniform"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_new" Content="" HorizontalAlignment="Left" Margin="282,37,0,0" VerticalAlignment="Top" Click="Click_ButtonNew" Width="96" Height="96" BorderThickness="0">
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:/Assets/NewFile.png" Stretch="Uniform"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_oilPastel_Copy"  HorizontalAlignment="Left" Margin="513,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="ChangeOilPastel" BorderThickness="0">
-            <Button.RenderTransform>
-                <CompositeTransform/>
-            </Button.RenderTransform>
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:/Assets/OilPastel.png" Stretch="Uniform"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_oilPastel"  HorizontalAlignment="Left" Margin="513,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="ChangeOilPastel" BorderThickness="0">
-            <Button.RenderTransform>
-                <CompositeTransform/>
-            </Button.RenderTransform>
-
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:/Assets/OilPastel.png" Stretch="Uniform"/>
-            </Button.Background>
-        </Button>
         
-        <Button x:Name="Button_waterBrush_Copy" HorizontalAlignment="Left" Margin="399,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="ChangeWaterBrush" BorderThickness="0">
-            <Button.RenderTransform>
-                <CompositeTransform/>
-            </Button.RenderTransform>
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/WaterBrush.png" Stretch="UniformToFill"/>
-            </Button.Background>
-        </Button>
-
-        <Button x:Name="Button_waterBrush" HorizontalAlignment="Left" Margin="399,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="ChangeWaterBrush" BorderThickness="0">
-            <Button.RenderTransform>
-                <CompositeTransform/>
-            </Button.RenderTransform>
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/WaterBrush.png" Stretch="UniformToFill"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_eraser_Copy" HorizontalAlignment="Left" Margin="626,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="DoEraser" BorderThickness="0">
-            <Button.RenderTransform>
-                <CompositeTransform/>
-            </Button.RenderTransform>
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/Eraser.png" Stretch="UniformToFill"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_eraser" HorizontalAlignment="Left" Margin="626,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="DoEraser" BorderThickness="0">
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/Eraser.png" Stretch="UniformToFill"></ImageBrush>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_takePhoto_Copy" HorizontalAlignment="Left" Margin="732,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="TakePhoto" BorderThickness="0">
-            <Button.RenderTransform>
-                <CompositeTransform/>
-            </Button.RenderTransform>
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/TakePhoto.png" Stretch="UniformToFill"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_takePhoto" HorizontalAlignment="Left" Margin="732,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="TakePhoto" BorderThickness="0">
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/TakePhoto.png" Stretch="UniformToFill"></ImageBrush>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_pictureLib_Copy" HorizontalAlignment="Left" Margin="843,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="PutPicture" BorderThickness="0">
-            <Button.RenderTransform>
-                <CompositeTransform/>
-            </Button.RenderTransform>
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/PictureLib.png" Stretch="UniformToFill"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_pictureLib" HorizontalAlignment="Left" Margin="843,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="PutPicture" BorderThickness="0">
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/PictureLib.png" Stretch="UniformToFill"></ImageBrush>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_writeText_Copy"  HorizontalAlignment="Left" Margin="958,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="WriteText" BorderThickness="0">
-            <Button.RenderTransform>
-                <CompositeTransform/>
-            </Button.RenderTransform>
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/WriteText.png" Stretch="UniformToFill"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_writeText"  HorizontalAlignment="Left" Margin="958,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="WriteText" BorderThickness="0">
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/WriteText.png" Stretch="UniformToFill"></ImageBrush>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_sendEmail_Copy" HorizontalAlignment="Left" Margin="1069,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.776,3.235" Height="96" Width="96" Click="SendEmail" BorderThickness="0" >
-            <Button.RenderTransform>
-                <CompositeTransform/>
-            </Button.RenderTransform>
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/SendEmail.png" Stretch="UniformToFill"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="Button_sendEmail" HorizontalAlignment="Left" Margin="1069,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.776,3.235" Height="96" Width="96" Click="SendEmail" BorderThickness="0" >
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/SendEmail.png" Stretch="UniformToFill"></ImageBrush>
-            </Button.Background>
-        </Button>
-        <Grid x:Name="Painter" Background="White" HorizontalAlignment="Left" Height="574" Margin="21,162,0,0" VerticalAlignment="Top" Width="1321" Canvas.ZIndex="-1">
-            <ListView x:Name="ColorList" HorizontalAlignment="Left" Height="394" Margin="1137,55,0,0" VerticalAlignment="Top" Width="120" SelectionMode="Single" TabNavigation="Once" CanDragItems="True" TabIndex="2147483647" IsItemClickEnabled="True" ItemClick="ColorItemClick" Canvas.ZIndex="2">
+        <Grid x:Name="Painter" Background="White" HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1366" Canvas.ZIndex="-1">
+            <ListView x:Name="ColorList" HorizontalAlignment="Left" Height="394" Margin="1137,224,0,0" VerticalAlignment="Top" Width="120" SelectionMode="Single" TabNavigation="Once" CanDragItems="True" TabIndex="2147483647" IsItemClickEnabled="True" ItemClick="ColorItemClick" Canvas.ZIndex="2">
                 <Image x:Name="Blue" Height="96" Source="Assets/WaterBrush_Blue.png" Stretch="UniformToFill" Width="96"/>
                 <Image x:Name="Yellow" Height="96" Source="Assets/WaterBrush_Yellow.jpg" Stretch="UniformToFill" Width="96"/>
                 <Image x:Name="Green" Height="96" Source="Assets/WaterBrush_Green.png" Stretch="UniformToFill" Width="96"/>
@@ -334,9 +220,128 @@
                 </Button>
             </Grid>
             <ListView x:Name="MailList" HorizontalAlignment="Left" Height="355" Margin="74,55,0,0" VerticalAlignment="Top" Width="419" ItemClick="MailChoose" IsItemClickEnabled="True" Canvas.ZIndex="4"/>
+            <Grid x:Name="RightGrid" Background="Orange" HorizontalAlignment="Left" Height="768" Margin="1344,0,0,0" VerticalAlignment="Top" Width="22"/>
 
 
         </Grid>
+        <Grid x:Name="TopGrid"  Background="Orange" HorizontalAlignment="Left" Height="162" VerticalAlignment="Top" Width="1366">
+            
+            <Button x:Name="Button_new_Copy" Content="" HorizontalAlignment="Left" Margin="282,37,0,0" VerticalAlignment="Top" Click="Click_ButtonNew" Width="96" Height="96" BorderThickness="0" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <CompositeTransform/>
+                </Button.RenderTransform>
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:/Assets/NewFile.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_new" Content="" HorizontalAlignment="Left" Margin="282,37,0,0" VerticalAlignment="Top" Click="Click_ButtonNew" Width="96" Height="96" BorderThickness="0">
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:/Assets/NewFile.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_oilPastel_Copy"  HorizontalAlignment="Left" Margin="513,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="ChangeOilPastel" BorderThickness="0">
+                <Button.RenderTransform>
+                    <CompositeTransform/>
+                </Button.RenderTransform>
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:/Assets/OilPastel.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_oilPastel"  HorizontalAlignment="Left" Margin="513,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="ChangeOilPastel" BorderThickness="0">
+                <Button.RenderTransform>
+                    <CompositeTransform/>
+                </Button.RenderTransform>
+
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:/Assets/OilPastel.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+
+            <Button x:Name="Button_waterBrush_Copy" HorizontalAlignment="Left" Margin="399,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="ChangeWaterBrush" BorderThickness="0">
+                <Button.RenderTransform>
+                    <CompositeTransform/>
+                </Button.RenderTransform>
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/WaterBrush.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+
+            <Button x:Name="Button_waterBrush" HorizontalAlignment="Left" Margin="399,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="ChangeWaterBrush" BorderThickness="0">
+                <Button.RenderTransform>
+                    <CompositeTransform/>
+                </Button.RenderTransform>
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/WaterBrush.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_eraser_Copy" HorizontalAlignment="Left" Margin="626,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="DoEraser" BorderThickness="0">
+                <Button.RenderTransform>
+                    <CompositeTransform/>
+                </Button.RenderTransform>
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/Eraser.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_eraser" HorizontalAlignment="Left" Margin="626,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="DoEraser" BorderThickness="0">
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/Eraser.png" Stretch="UniformToFill"></ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_takePhoto_Copy" HorizontalAlignment="Left" Margin="732,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="TakePhoto" BorderThickness="0">
+                <Button.RenderTransform>
+                    <CompositeTransform/>
+                </Button.RenderTransform>
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/TakePhoto.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_takePhoto" HorizontalAlignment="Left" Margin="732,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="TakePhoto" BorderThickness="0">
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/TakePhoto.png" Stretch="UniformToFill"></ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_pictureLib_Copy" HorizontalAlignment="Left" Margin="843,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="PutPicture" BorderThickness="0">
+                <Button.RenderTransform>
+                    <CompositeTransform/>
+                </Button.RenderTransform>
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PictureLib.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_pictureLib" HorizontalAlignment="Left" Margin="843,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="PutPicture" BorderThickness="0">
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PictureLib.png" Stretch="UniformToFill"></ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_writeText_Copy"  HorizontalAlignment="Left" Margin="958,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="WriteText" BorderThickness="0">
+                <Button.RenderTransform>
+                    <CompositeTransform/>
+                </Button.RenderTransform>
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/WriteText.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_writeText"  HorizontalAlignment="Left" Margin="958,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.471" Width="96" Height="96" Click="WriteText" BorderThickness="0">
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/WriteText.png" Stretch="UniformToFill"></ImageBrush>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_sendEmail_Copy" HorizontalAlignment="Left" Margin="1069,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.776,3.235" Height="96" Width="96" Click="SendEmail" BorderThickness="0" >
+                <Button.RenderTransform>
+                    <CompositeTransform/>
+                </Button.RenderTransform>
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/SendEmail.png" Stretch="UniformToFill"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button_sendEmail" HorizontalAlignment="Left" Margin="1069,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.776,3.235" Height="96" Width="96" Click="SendEmail" BorderThickness="0" >
+                <Button.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/SendEmail.png" Stretch="UniformToFill"></ImageBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid x:Name="LeftGrid" Background="Orange" HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="35"/>
+        <Grid x:Name="BottomGrid" Background="Orange" HorizontalAlignment="Left" Height="32" Margin="0,736,0,0" VerticalAlignment="Top" Width="1366"/>
 
 
     </Grid>

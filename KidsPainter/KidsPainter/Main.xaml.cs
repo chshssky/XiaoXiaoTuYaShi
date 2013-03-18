@@ -29,12 +29,12 @@ namespace KidsPainter
     /// 
     public sealed partial class Main : Page
     {
-        string email;
+        private string email;
         private AgreementControl agCon = new AgreementControl();
         public Main()
         {
             this.InitializeComponent();
-            Ifagree();
+       //     Ifagree();
         }
         public async void Ifagree()
         {
@@ -74,7 +74,7 @@ namespace KidsPainter
         {
             if (this.Frame != null)
             {
-                this.Frame.Navigate(typeof(MainPage));
+                this.Frame.Navigate(typeof(MainPage), new { A = email });
             }
         }
         private void btnSetting_Click(object sender, RoutedEventArgs e)

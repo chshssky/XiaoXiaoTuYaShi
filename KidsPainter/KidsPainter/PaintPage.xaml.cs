@@ -39,7 +39,7 @@ namespace Painter
 
     public sealed partial class MainPage : Page
     {
-
+        string email;
         FlagFactory factory = new FlagFactory();
         ComponentsControl control = new ComponentsControl();
         DrawShape draw = new DrawShape();
@@ -50,7 +50,12 @@ namespace Painter
             InitialSoftware();
         }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e) {}
+        protected override void OnNavigatedTo(NavigationEventArgs e) 
+        {
+            dynamic par = e.Parameter;
+            email = par.A;
+            base.OnNavigatedTo(e);
+        }
 
         private void InitialSoftware()
         {
@@ -137,7 +142,7 @@ namespace Painter
         {
 
             if (this.Frame != null)
-                this.Frame.Navigate(typeof(Main));
+                this.Frame.Navigate(typeof(Main), new { A = email });
 
         }
 

@@ -17,7 +17,13 @@ namespace KidsPainter
     class ComponentsControl
     {
         public FlagFactory factory;
+
+        public Grid TopGrid = new Grid();
+        public Grid BottomGrid = new Grid();
+        public Grid LeftGrid = new Grid();
+        public Grid RightGrid = new Grid();
         public Grid MailGrid = new Grid();
+
         public Grid QuestionGrid = new Grid();
         public Grid Painter = new Grid();
         public ListView ColorList = new ListView();
@@ -71,9 +77,26 @@ namespace KidsPainter
             * 初始化界面尺寸,控件位置
             */
 
-            this.Painter.Height = factory.PainterHeight;
+            this.Painter.Height = factory.PainterHeight; //改成整个屏幕的
             this.Painter.Width = factory.PainterWidth;
-            this.Painter.Margin = new Thickness(40, 150, 0, 0);
+            this.Painter.Margin = new Thickness(0, 0, 0, 0);
+
+            this.TopGrid.Height = 162;
+            this.TopGrid.Width = factory.PainterWidth;
+            this.TopGrid.Margin = new Thickness(0,0,0,0);
+
+            this.LeftGrid.Height = factory.PainterHeight;
+            this.LeftGrid.Width = 35;
+            this.LeftGrid.Margin = new Thickness(0,0,0,0);
+
+            this.RightGrid.Height = factory.PainterHeight;
+            this.RightGrid.Width = 22;
+            this.RightGrid.Margin = new Thickness(factory.PainterWidth-22,0,0,0);
+
+            this.BottomGrid.Height = 32;
+            this.BottomGrid.Width = factory.PainterWidth;
+            this.BottomGrid.Margin = new Thickness(0, factory.PainterHeight - 32, 0, 0);
+
 
             double interval = factory.ScreenWidth / 13; ;
             this.Button_new.Margin = new Thickness(3 * interval, 35, 0, 0);
@@ -102,7 +125,7 @@ namespace KidsPainter
             this.PictureView.Margin = new Thickness((this.Painter.Width - this.PictureView.Width) / 2,
                 this.Painter.Height - this.PictureView.Height - 20, 0, 0);
 
-            this.ColorList.Margin = new Thickness(this.Painter.Width - this.ColorList.Width - 30, 30, 0, 0);
+            this.ColorList.Margin = new Thickness(this.Painter.Width - 80-this.ColorList.Width - 30, 190, 0, 0);
 
             this.MailList.Margin = new Thickness((this.Painter.Width - this.MailList.Width) / 2,
                 (this.Painter.Height - this.MailList.Height) / 2, 0, 0);
