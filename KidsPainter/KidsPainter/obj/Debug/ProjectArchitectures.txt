@@ -1,1 +1,1 @@
-C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\KidsPainter.csproj;neutral
+C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\KidsPainter.csproj;neutral

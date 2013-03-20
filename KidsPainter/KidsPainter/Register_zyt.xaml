@@ -58,6 +58,7 @@
         	<Run Text="码"/>
         </TextBlock>
         <TextBox x:Name="txBoNum" HorizontalAlignment="Left" Margin="252,281,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="147"/>
+        <TextBlock x:Name="txBlName" HorizontalAlignment="Left" Margin="767,447,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="589" Text="{Binding Name}" FontSize="20"/>
 
         <VisualStateManager.VisualStateGroups>
 

@@ -72,16 +72,16 @@ namespace KidsPainter
                     await ParseUser.LogInAsync(txBoEm.Text, pdBox.Password);
                     // Login was successful.
                     //txBlShow.Text = "登陆成功~~";
-                    Message.ShowDialog("!!!!!!!!!!!!!!!!!success");
+                    Message.ShowToast("登陆成功！");
                     if (this.Frame != null)
                         this.Frame.Navigate(typeof(Main), new { A = email });  //跳转过去时，同时要把用户名参数传过去
-
+                    
                 }
                 catch (Exception error)
                 {
                     // The login failed. Check the error to see why.
                     txBlShow.Text = errorHint;
-                    Message.ShowDialog("!!!!!!!!!!!!!!!!!failed");
+                    Message.ShowToast("登陆失败！");
                 }
 
             }
