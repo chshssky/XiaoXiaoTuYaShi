@@ -105,5 +105,9 @@
         <Button x:Name="btnMyPaint" Content="个人画迹" HorizontalAlignment="Left" Margin="1011,48,0,0" VerticalAlignment="Top" Height="57" Width="143" FontSize="25" Background="#FFD6C2C2" Foreground="#FF171515"/>
         <Button x:Name="btnMessage" Content="消息盒子" HorizontalAlignment="Left" Margin="834,48,0,0" VerticalAlignment="Top" Width="137" Height="57" Background="#FFEAC7C7" Foreground="#FF131212" FontSize="25"/>
         <Button x:Name="btnFriendList" Content="好友列表" HorizontalAlignment="Left" Margin="669,48,0,0" VerticalAlignment="Top" Width="130" Height="57" Background="#FFCDBDBD" Foreground="#FF232121" FontSize="25"/>
+        <Grid HorizontalAlignment="Left" Height="224" Margin="92,277,0,0" VerticalAlignment="Top" Width="210" Background="#FFF7E4E4">
+            <Image x:Name="imgHead" HorizontalAlignment="Left" Height="179" VerticalAlignment="Top" Width="210"/>
+            <TextBlock x:Name="txblInfo" HorizontalAlignment="Left" Margin="10,194,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="158" Height="30" Foreground="#FF0E0C0C" FontSize="15"/>
+        </Grid>
     </Grid>
 </Page>
