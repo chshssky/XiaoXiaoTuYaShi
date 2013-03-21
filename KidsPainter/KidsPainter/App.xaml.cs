@@ -80,8 +80,8 @@ namespace KidsPainter
             Window.Current.Activate();
 
             // Test Parse:
-            var testObject = new ParseObject("TestObject");
-            testObject["foo"] = "bar";
+            //var testObject = new ParseObject("TestObject");
+            //testObject["foo"] = "bar";
             ////await testObject.SaveAsync();
 
         }

@@ -165,7 +165,7 @@ namespace KidsPainter
                 IBuffer buffer = await FileIO.ReadBufferAsync(file);
                 Stream pic = WindowsRuntimeBufferExtensions.AsStream(buffer);
 
-                ParseFile portrait = new ParseFile(nick_name + "sPhoto.bmp", pic);
+                ParseFile portrait = new ParseFile(nick_name + "sPhoto.png", pic);
                 await portrait.SaveAsync();
 
 

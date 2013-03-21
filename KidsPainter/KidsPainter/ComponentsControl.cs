@@ -170,10 +170,10 @@ namespace KidsPainter
             if (ret.success)
             {
                 //将流上传到服务器上
-                var test = new ParseObject("test");
-                test["HEHHEHEH"] = "test";
+                //var test = new ParseObject("test");
+                //test["HEHHEHEH"] = "test";
 
-                test.SaveAsync();
+                //test.SaveAsync();
 
 
 

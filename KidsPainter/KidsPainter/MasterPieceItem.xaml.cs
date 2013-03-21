@@ -10,6 +10,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // “用户控件”项模板在 http://go.microsoft.com/fwlink/?LinkId=234236 上提供
@@ -26,6 +27,10 @@ namespace KidsPainter
         async public void InitialItem(String date)
         {
             this.MyDate.Text = date;
+        }
+        async public void InitialPicture(BitmapImage image)
+        {
+            this.MyImage.Source = image;
         }
     }
 }

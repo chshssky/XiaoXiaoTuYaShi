@@ -49,12 +49,49 @@ namespace KidsPainter
             number.Add(4);
             timeline.ItemsSource = number;
              * */
+
+            loadPaints();
+
             loadImg();
             
-            for (int i = 0; i < 4; i++)
+
+        }
+
+        private async void loadPaints()
+        {
+            String user = ParseUser.CurrentUser.Username;
+
+            var query = from Paints in ParseObject.GetQuery("Paints")
+                        where Paints.Get<string>("user") == user
+                        select Paints;
+            IEnumerable<ParseObject> results = await query.FindAsync();
+
+            int count = results.Count<ParseObject>();
+            Message.ShowToast("" + count);
+
+            for (int i = 0; i < count; i++)
             {
                 MasterPieceItem item = new MasterPieceItem();
-                item.InitialItem("2012");
+
+                DateTime? postTime = results.ElementAt<ParseObject>(i).CreatedAt;
+                //差12个小时
+                item.InitialItem("发布于:"+postTime);
+
+                var paintImage = results.ElementAt<ParseObject>(i).Get<ParseFile>("imageFile");
+                Stream imgStream = await new HttpClient().GetStreamAsync(paintImage.Url);
+
+                txblName.Text = ParseUser.CurrentUser.Get<string>("nickName");
+
+                InMemoryRandomAccessStream ras = new InMemoryRandomAccessStream();
+
+                await imgStream.CopyToAsync(ras.AsStreamForWrite());
+
+                BitmapImage bmpImg = new BitmapImage();
+                bmpImg.SetSource(ras);
+
+
+                item.InitialPicture(bmpImg);
+
                 timeline.Items.Add(item);
             }
         }
@@ -63,7 +100,7 @@ namespace KidsPainter
         {
             var portrait = ParseUser.CurrentUser.Get<ParseFile>("portraitImg");
 
-            Message.ShowDialog("" + portrait.Url);
+            //Message.ShowDialog("" + portrait.Url);
 
             Stream imgStream = await new HttpClient().GetStreamAsync(portrait.Url);
             txblName.Text = ParseUser.CurrentUser.Get<string>("nickName");
@@ -75,7 +112,7 @@ namespace KidsPainter
             BitmapImage bmpImg = new BitmapImage();
             bmpImg.SetSource(ras);
 
-            imgPortrait.Source = new BitmapImage(new Uri("ms-appx:/Assets/Logo.png")); ;//;
+            imgPortrait.Source = bmpImg;//new BitmapImage(new Uri("ms-appx:/Assets/Logo.png")); ;//;
 
         }
 
