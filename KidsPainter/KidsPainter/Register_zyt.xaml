@@ -21,38 +21,46 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid x:Name="txBo" Style="{StaticResource LayoutRootStyle}" Background="#FFA66161">
+    <Grid x:Name="txBo" Style="{StaticResource LayoutRootStyle}">
+    	<Grid.Background>
+    		<ImageBrush ImageSource="Assets/Registbakgd.jpg"/>
+    	</Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <Grid Margin="-25,26,25,0">
+        <Grid Margin="61,52,-61,602" Grid.RowSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}" Margin="35,0,0,57"/>
-            <TextBlock x:Name="pageTitle" Text="欢迎来到注册页面" Style="{StaticResource PageHeaderTextStyle}" Grid.ColumnSpan="2" Margin="116,0,34,70"/>
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="42,5,0,0" Grid.Row="1" TextWrapping="Wrap" Text="家长邮箱" VerticalAlignment="Top" Height="38" Width="193" FontSize="40"/>
-        <TextBox x:Name="txBoParentEmail" HorizontalAlignment="Left" Margin="240,5,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="348"/>
-        <TextBlock HorizontalAlignment="Left" Margin="42,63,0,0" Grid.Row="1" TextWrapping="Wrap" Text="小孩昵称" VerticalAlignment="Top" Height="44" Width="172" FontSize="40"/>
-        <TextBox x:Name="txBoName" HorizontalAlignment="Left" Margin="240,68,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="348" Height="39"/>
-        <TextBlock HorizontalAlignment="Left" Margin="42,269,0,0" Grid.Row="1" TextWrapping="Wrap" Text="头像" VerticalAlignment="Top" Height="41" Width="116" FontSize="30" RenderTransformOrigin="0.476,-1.614"/>
-        <Image x:Name="imgChildPhoto" HorizontalAlignment="Left" Height="228" Margin="249,255,0,0" Grid.Row="1" VerticalAlignment="Top" Width="247"/>
-        <Button x:Name="btnChoose" Content="从本地选择" HorizontalAlignment="Left" Margin="580,269,0,0" Grid.Row="1" VerticalAlignment="Top" Height="66" Width="162" FontSize="25" Click="btnChoose_Click"/>
-        <Button x:Name="btnTakePhoto" Content="使用摄像头" HorizontalAlignment="Left" Margin="580,389,0,0" Grid.Row="1" VerticalAlignment="Top" Height="57" Width="162" FontSize="25" Click="btnTakePhoto_Click"/>
-        <TextBlock x:Name="txBlPath" HorizontalAlignment="Left" Margin="767,389,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="589" Text="{Binding Path}" FontSize="20"/>
-        <Button x:Name="btnYes" Content="注册" HorizontalAlignment="Left" Margin="240,524,0,0" Grid.Row="1" VerticalAlignment="Top" Height="67" Width="134" FontSize="40" Click="btnYes_Click"/>
-        <Button x:Name="btnNo" Content="取消" HorizontalAlignment="Left" Margin="474,524,0,0" Grid.Row="1" VerticalAlignment="Top" Height="67" Width="114" FontSize="40" Click="btnNo_Click"/>
-        <TextBlock x:Name="txBlShow" HorizontalAlignment="Left" Margin="792,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="148" Width="354" FontSize="20" Grid.RowSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="42,129,0,0" Grid.Row="1" TextWrapping="Wrap" Text="输入密码" VerticalAlignment="Top" Height="43" Width="172" FontSize="30"/>
-        <TextBlock HorizontalAlignment="Left" Margin="42,183,0,0" Grid.Row="1" TextWrapping="Wrap" Text="再次输入" VerticalAlignment="Top" Height="37" Width="120" FontSize="30"/>
-        <PasswordBox x:Name="psdBox1" HorizontalAlignment="Left" Margin="240,129,0,0" Grid.Row="1" VerticalAlignment="Top" Width="348" Height="43"/>
-        <PasswordBox x:Name="psdBox2" HorizontalAlignment="Left" Margin="240,183,0,0" Grid.Row="1" VerticalAlignment="Top" Width="348" Height="37"/>
-        <TextBlock x:Name="txBlName" HorizontalAlignment="Left" Margin="767,447,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="589" Text="{Binding Name}" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="94,11,0,0" TextWrapping="Wrap" Text="家长邮箱" VerticalAlignment="Top" Height="38" Width="193" FontSize="32" Foreground="#FF1A6278" Grid.Row="1"/>
+        <TextBox x:Name="txBoParentEmail" HorizontalAlignment="Left" Margin="252,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="348" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="94,98,0,0" Grid.Row="1" TextWrapping="Wrap" Text="小孩昵称" VerticalAlignment="Top" Height="44" Width="172" FontSize="32" Foreground="#FF1A6278"/>
+        <TextBox x:Name="txBoName" HorizontalAlignment="Left" Margin="252,98,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="348" Height="39"/>
+        <TextBlock HorizontalAlignment="Left" Margin="963,89,0,0" TextWrapping="Wrap" Text="头像" VerticalAlignment="Top" Height="41" Width="116" FontSize="30" RenderTransformOrigin="0.476,-1.614"/>
+        <Image x:Name="imgChildPhoto" HorizontalAlignment="Left" Height="284" Margin="999,10,0,0" VerticalAlignment="Top" Width="320" Grid.Row="1"/>
+        <Button x:Name="btnChoose" Content="从本地选择" HorizontalAlignment="Left" Margin="1062,342,0,0" Grid.Row="1" VerticalAlignment="Top" Height="68" Width="206" FontSize="25" Click="btnChoose_Click" Background="#FF4A9AB2" Foreground="White" BorderBrush="#FFB9E6E6" FontFamily="Iskoola Pota"/>
+        <Button x:Name="btnTakePhoto" Content="使用摄像头" HorizontalAlignment="Left" Margin="1062,442,0,0" Grid.Row="1" VerticalAlignment="Top" Height="67" Width="206" FontSize="25" Click="btnTakePhoto_Click" Background="#FF4A9AB2" BorderBrush="#FFB9E6E5"/>
+        <TextBlock x:Name="txBlPath" HorizontalAlignment="Left" Margin="687,166,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="229" Text="{Binding Name}" FontSize="20"/>
+        <Button x:Name="btnYes" Content="" HorizontalAlignment="Left" Margin="715,424,0,0" Grid.Row="1" VerticalAlignment="Top" Height="141" Width="142" FontSize="40" Click="btnYes_Click" BorderThickness="0">
+        	<Button.Background>
+        		<ImageBrush ImageSource="Assets/Registok.jpg"/>
+        	</Button.Background>
+        </Button>
+        <TextBlock x:Name="txBlShow" HorizontalAlignment="Left" Margin="301,455,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="73" Width="349" FontSize="20" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="94,192,0,0" Grid.Row="1" TextWrapping="Wrap" Text="输入密码" VerticalAlignment="Top" Height="43" Width="172" FontSize="32" Foreground="#FF1A6278"/>
+        <TextBlock HorizontalAlignment="Left" Margin="94,283,0,0" Grid.Row="1" TextWrapping="Wrap" Text="再次输入" VerticalAlignment="Top" Height="37" Width="138" FontSize="32" Foreground="#FF1A6278"/>
+        <PasswordBox x:Name="psdBox1" HorizontalAlignment="Left" Margin="252,192,0,0" Grid.Row="1" VerticalAlignment="Top" Width="348" Height="43"/>
+        <PasswordBox x:Name="psdBox2" HorizontalAlignment="Left" Margin="252,283,0,0" Grid.Row="1" VerticalAlignment="Top" Width="348" Height="37"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="73,424,0,0" Grid.Row="1" VerticalAlignment="Top" Height="141" Width="141" BorderThickness="0" RenderTransformOrigin="0.222,0.565" Click="Button_Click_1">
+        	<Button.Background>
+        		<ImageBrush ImageSource="Assets/Registbackbtn.jpg"/>
+        	</Button.Background>
+        </Button>
 
         <VisualStateManager.VisualStateGroups>
 
@@ -62,25 +70,10 @@
                 <VisualState x:Name="Filled"/>
 
                 <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
-                <VisualState x:Name="FullScreenPortrait">
-                    <Storyboard>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
-                        </ObjectAnimationUsingKeyFrames>
-                    </Storyboard>
-                </VisualState>
+                <VisualState x:Name="FullScreenPortrait"/>
 
                 <!-- The back button and title have different styles when snapped -->
-                <VisualState x:Name="Snapped">
-                    <Storyboard>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
-                        </ObjectAnimationUsingKeyFrames>
-                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
-                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
-                        </ObjectAnimationUsingKeyFrames>
-                    </Storyboard>
-                </VisualState>
+                <VisualState x:Name="Snapped"/>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
     </Grid>

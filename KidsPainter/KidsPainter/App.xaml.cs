@@ -82,7 +82,7 @@ namespace KidsPainter
             // Test Parse:
             var testObject = new ParseObject("TestObject");
             testObject["foo"] = "bar";
-            await testObject.SaveAsync();
+            ////await testObject.SaveAsync();
 
         }
 

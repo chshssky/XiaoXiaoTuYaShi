@@ -18,6 +18,9 @@ using Windows.Storage.Streams;
 using System.Runtime.Serialization;
 using Windows.UI.Popups;
 using System.Threading.Tasks;
+using Parse;
+using System.Net.Http;
+using Windows.UI.Xaml.Media.Imaging;
 
 // “空白页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234238 上有介绍
 
@@ -34,8 +37,49 @@ namespace KidsPainter
         public Main()
         {
             this.InitializeComponent();
-       //     Ifagree();
+            //Ifagree();
+            //Ifagree();
+            
+            /*
+            List<int> number = new List<int>();
+            number.Add(3);
+            number.Add(4);
+            number.Add(5);
+            number.Add(3);
+            number.Add(4);
+            timeline.ItemsSource = number;
+             * */
+            loadImg();
+            
+            for (int i = 0; i < 4; i++)
+            {
+                MasterPieceItem item = new MasterPieceItem();
+                item.InitialItem("2012");
+                timeline.Items.Add(item);
+            }
         }
+
+        private async void loadImg()
+        {
+            var portrait = ParseUser.CurrentUser.Get<ParseFile>("portraitImg");
+
+            Message.ShowDialog("" + portrait.Url);
+
+            Stream imgStream = await new HttpClient().GetStreamAsync(portrait.Url);
+            txblName.Text = ParseUser.CurrentUser.Get<string>("nickName");
+
+            InMemoryRandomAccessStream ras = new InMemoryRandomAccessStream();
+
+            await imgStream.CopyToAsync(ras.AsStreamForWrite());
+
+            BitmapImage bmpImg = new BitmapImage();
+            bmpImg.SetSource(ras);
+
+            imgPortrait.Source = new BitmapImage(new Uri("ms-appx:/Assets/Logo.png")); ;//;
+
+        }
+
+
         public async void Ifagree()
         {
             agCon.checkAgreement();
@@ -57,9 +101,9 @@ namespace KidsPainter
         /// 属性通常用于配置页。</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            dynamic par = e.Parameter;
-            email = par.A;
-            base.OnNavigatedTo(e);
+            //dynamic par = e.Parameter;
+            //email = par.A;
+            //base.OnNavigatedTo(e);
         }
         private void closeDialog(IUICommand command)
         {
@@ -104,7 +148,6 @@ namespace KidsPainter
                 this.Frame.Navigate(typeof(ChangeInfo_zyt));
         }
 
- 
         /*
          * 此设置用于更改相关信息：登陆邮箱，密码，昵称，照片等等。
          */

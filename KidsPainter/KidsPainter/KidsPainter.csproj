@@ -15,6 +15,7 @@
     <PackageCertificateKeyFile>KidsPainter_StoreKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <PackageCertificateThumbprint>C50F7394FCBC3DEEFB01E960FB3769C219E022DC</PackageCertificateThumbprint>
+    <ExpressionBlendVersion>5.0.30709.0</ExpressionBlendVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -118,6 +119,9 @@
     <Compile Include="Login_zyt.xaml.cs">
       <DependentUpon>Login_zyt.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MasterPieceItem.xaml.cs">
+      <DependentUpon>MasterPieceItem.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Message.cs" />
     <Compile Include="PasswordCheck.cs" />
     <Compile Include="Register_zyt.xaml.cs">
@@ -157,10 +161,14 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Okpressed.png" />
     <Content Include="Assets\Background_question.jpg" />
     <Content Include="Assets\Background_setting.jpg" />
     <Content Include="Assets\Background_write.jpg" />
     <Content Include="Assets\Eraser.png" />
+    <Content Include="Assets\LoginBackground.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\mainpage.jpg" />
     <Content Include="Assets\music.mp3" />
@@ -168,6 +176,18 @@
     <Content Include="Assets\NewMail.png" />
     <Content Include="Assets\OilPastel.png" />
     <Content Include="Assets\PictureLib.png" />
+    <Content Include="Assets\picturepanel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Registbackbtn.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Registbakgd.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Registok.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\SendEmail.png" />
     <Content Include="Assets\setting.png" />
     <Content Include="Assets\SmallLogo.png" />
@@ -187,6 +207,12 @@
     <Content Include="Assets\Stamp\pig.png" />
     <Content Include="Assets\Stamp\pikachu.png" />
     <Content Include="Assets\Stamp\star.png" />
+    <Content Include="Assets\start1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\start2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\TakePhoto.png" />
     <Content Include="Assets\WaterBrush.png" />
@@ -220,6 +246,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Login_zyt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MasterPieceItem.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

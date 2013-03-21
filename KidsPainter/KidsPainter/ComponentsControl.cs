@@ -10,6 +10,7 @@ using Windows.Storage.Streams;
 using System.Runtime.Serialization;
 using System.IO;
 using Windows.UI.Xaml.Media;
+using Parse;
 
 
 namespace KidsPainter
@@ -168,6 +169,28 @@ namespace KidsPainter
 
             if (ret.success)
             {
+                //将流上传到服务器上
+                var test = new ParseObject("test");
+                test["HEHHEHEH"] = "test";
+
+                test.SaveAsync();
+
+
+
+                //Stream bmpImage = WindowsRuntimeStreamExtensions.AsStreamForRead(imageStream.GetInputStreamAt(0));
+                ParseFile imgFile = new ParseFile("Painter.bmp", ret.imagestream);
+
+                await imgFile.SaveAsync();
+
+                var paintersObj = new ParseObject("Paints");
+                paintersObj["imageFile"] = imgFile;
+                paintersObj["user"] = ParseUser.CurrentUser.Username;
+                paintersObj["nickName"] = ParseUser.CurrentUser["nickName"];
+
+                await paintersObj.SaveAsync();
+
+                Message.ShowToast("发布成功");
+
                 factory.strContent = "";
                 MailBox.Document.Selection.StartPosition = 0;
                 MailBox.Document.GetText(Windows.UI.Text.TextGetOptions.None, out factory.strContent);

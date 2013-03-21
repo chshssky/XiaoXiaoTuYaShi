@@ -10,15 +10,14 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
-using Windows.Storage;
 using KidsPainter;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 using Parse;
-using Windows.Storage.Streams;
+using Windows.Storage;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Storage.Streams;
 
 // “基本页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234237 上有介绍
 
@@ -34,8 +33,6 @@ namespace KidsPainter
     }
     public sealed partial class Register_zyt : KidsPainter.Common.LayoutAwarePage
     {
-        private BitmapImage portraitBitmapImage;
-
         public Register_zyt()
         {
             this.InitializeComponent();
@@ -91,16 +88,14 @@ namespace KidsPainter
                         await file.OpenAsync(Windows.Storage.FileAccessMode.Read);
 
                     // Set the image source to the selected bitmap.
- //                   Windows.UI.Xaml.Media.Imaging.BitmapImage bitmapImage =
- //                       new Windows.UI.Xaml.Media.Imaging.BitmapImage();
-                    portraitBitmapImage = new BitmapImage();
+                    Windows.UI.Xaml.Media.Imaging.BitmapImage bitmapImage =
+                        new Windows.UI.Xaml.Media.Imaging.BitmapImage();
 
-                    portraitBitmapImage.SetSource(fileStream);
-                    imgChildPhoto.Source = portraitBitmapImage;
+                    bitmapImage.SetSource(fileStream);
+                    imgChildPhoto.Source = bitmapImage;
                     this.DataContext = file; // 将storageFile设置为照片页面的DataContext
 
                     // mruToken = Windows.Storage.AccessCache.StorageApplicationPermissions.MostRecentlyUsedList.Add(file);
-
                     StorageFolder folder = null;
                     bool Failed = false;
                     try
@@ -127,13 +122,9 @@ namespace KidsPainter
             ReturnElements returnEle = await task;
           //  Image image = new Image();
            // image.Source = returnEle.bitmapImage;
-            portraitBitmapImage = returnEle.bitmapImage;
-            imgChildPhoto.Source = portraitBitmapImage;
-          
-            txBlName.Text = returnEle.filename;
-            txBlPath.Text = "Picture";
+            imgChildPhoto.Source = returnEle.bitmapImage;
 
-            
+            txBlPath.Text = returnEle.filename; 
         }
 
         private void btnNo_Click(object sender, RoutedEventArgs e)
@@ -141,7 +132,6 @@ namespace KidsPainter
             txBoParentEmail.Text = "";
             txBlPath.Text = "";
             txBoName.Text = "";    //点击取消按钮，是要把东西都清空还是返回登陆？清空的话，图片不能清空否则有点小问题
-            txBlName.Text = "";
         }
 
         private async void btnYes_Click(object sender, RoutedEventArgs e)
@@ -158,11 +148,9 @@ namespace KidsPainter
                 RegisterResult registerRes = await rrTask;
                 if (registerRes.ifSuccess == 1)
                 {
-                    Message.ShowToast("注册成功 请到邮箱查收 ");
+                    Message.ShowToast("register OK");
                     this.Frame.Navigate(typeof(Login_zyt));  //这里跳转到到登陆界面还是直接帮其登陆、跳转到主界面还有待商榷
-             
                 }
-
             }
         }
 
@@ -172,13 +160,14 @@ namespace KidsPainter
             try
             {
                 StorageFolder folder = await ApplicationData.Current.LocalFolder.GetFolderAsync("Picture");
-          
-                StorageFile file = await folder.GetFileAsync(txBlName.Text);
+
+                StorageFile file = await folder.GetFileAsync(txBlPath.Text);
                 IBuffer buffer = await FileIO.ReadBufferAsync(file);
                 Stream pic = WindowsRuntimeBufferExtensions.AsStream(buffer);
 
                 ParseFile portrait = new ParseFile(nick_name + "sPhoto.bmp", pic);
                 await portrait.SaveAsync();
+
 
                 var user = new ParseUser()
                 {
@@ -188,9 +177,6 @@ namespace KidsPainter
                 };
                 
                 // other fields can be set just like with ParseObject
-                //user["photoPath"] = nick_name + mail;
-                //Message.ShowDialog("" + user.ContainsKey("emailVerified"));
-                //user["emailVerified"] = false;
                 user["portraitImg"] = portrait;
                 user["nickName"] = nick_name;
 
@@ -207,9 +193,10 @@ namespace KidsPainter
             }
         }
 
-        private void btnGetNum_Click(object sender, RoutedEventArgs e) 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            
+            if (this.Frame != null)
+                this.Frame.Navigate(typeof(Login_zyt));  //跳转过去时，同时要把用户名参数传过去
         }
 
         /*点击此按钮时，先把邮箱地址发送到服务器上，服务器往该邮箱发送验证码同时把验证码发送

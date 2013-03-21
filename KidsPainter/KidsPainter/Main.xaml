@@ -87,27 +87,56 @@
 
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="ms-appx:/Assets/mainpage.jpg"/>
+            <ImageBrush ImageSource="Assets/LoginBackground.jpg"/>
         </Grid.Background>
-        <Button x:Name="btnNew" Content="" HorizontalAlignment="Left" Margin="413,229,0,0" VerticalAlignment="Top" Height="110" Width="131" Click="btnNew_Click" BorderThickness="0">
+        <Button x:Name="btnNew" Content="" HorizontalAlignment="Left" Margin="501,160,0,0" VerticalAlignment="Top" Height="110" Width="131" Click="btnNew_Click" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="ms-appx:/Assets/NewMail.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnSetting" Content="" HorizontalAlignment="Left" Margin="413,354,0,0" VerticalAlignment="Top" Height="110" Width="115" Click="btnSetting_Click" BorderThickness="0">
+        <Button x:Name="btnSetting" Content="" HorizontalAlignment="Left" Margin="901,151,0,0" VerticalAlignment="Top" Height="110" Width="115" Click="btnSetting_Click" BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="ms-appx:/Assets/setting.png" Stretch="Uniform"/>
             </Button.Background>
         </Button>
-        <TextBlock HorizontalAlignment="Left" Margin="608,390,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="191" Text="通讯录设置" Foreground="Black" FontSize="30" FontFamily="Microsoft YaHei" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="608,268,0,0" TextWrapping="Wrap" Text="涂鸦师" VerticalAlignment="Top" Height="47" Width="136" FontSize="30" FontWeight="Bold" FontFamily="Microsoft YaHei" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1096,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="42" Width="191" Text="通讯录设置" Foreground="Black" FontSize="30" FontFamily="Microsoft YaHei" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="696,180,0,0" TextWrapping="Wrap" Text="涂鸦师" VerticalAlignment="Top" Height="47" Width="136" FontSize="30" FontWeight="Bold" FontFamily="Microsoft YaHei" Foreground="Black"/>
         <Button x:Name="btnSettings" Content="设置" HorizontalAlignment="Left" Margin="1176,48,0,0" VerticalAlignment="Top" Height="57" Width="161" Background="#FFE6D5D5" FontSize="30" Foreground="#FF1B1919" Click="btnSettings_Click"/>
         <Button x:Name="btnMyPaint" Content="个人画迹" HorizontalAlignment="Left" Margin="1011,48,0,0" VerticalAlignment="Top" Height="57" Width="143" FontSize="25" Background="#FFD6C2C2" Foreground="#FF171515"/>
         <Button x:Name="btnMessage" Content="消息盒子" HorizontalAlignment="Left" Margin="834,48,0,0" VerticalAlignment="Top" Width="137" Height="57" Background="#FFEAC7C7" Foreground="#FF131212" FontSize="25"/>
         <Button x:Name="btnFriendList" Content="好友列表" HorizontalAlignment="Left" Margin="669,48,0,0" VerticalAlignment="Top" Width="130" Height="57" Background="#FFCDBDBD" Foreground="#FF232121" FontSize="25"/>
-        <Grid HorizontalAlignment="Left" Height="224" Margin="92,277,0,0" VerticalAlignment="Top" Width="210" Background="#FFF7E4E4">
-            <Image x:Name="imgHead" HorizontalAlignment="Left" Height="179" VerticalAlignment="Top" Width="210"/>
-            <TextBlock x:Name="txblInfo" HorizontalAlignment="Left" Margin="10,194,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="158" Height="30" Foreground="#FF0E0C0C" FontSize="15"/>
-        </Grid>
+		
+        <GridView Name="timeline" Width="Auto" Height="400"                    
+                      BorderBrush="LightGray"
+                      BorderThickness="0" VerticalAlignment="Stretch" ScrollViewer.VerticalScrollBarVisibility="Auto"
+                      ScrollViewer.HorizontalScrollBarVisibility="Auto" SelectionMode="None" Margin="0,300,0,0" Opacity="0.995" CanDragItems="True" RenderTransformOrigin="0.499,0.54" HorizontalContentAlignment="Stretch" FontFamily="Global User Interface"    
+                  >
+            <!--
+                <GridView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Name="stackPanel" Orientation="Horizontal" Margin="30,150,0,0">
+                            <StackPanel Orientation="Vertical" Height="350" Width="400" Margin="-30,-130,0,0" >
+                                <StackPanel Height="280" Width="400" Margin="0,-20,0,0" >
+                                <StackPanel.Background>
+                                <ImageBrush ImageSource="ms-appx:/Assets/picturepanel.png"></ImageBrush>
+                                </StackPanel.Background>
+                                <Button Height="245" Width="385" Margin="7,5,0,0" BorderThickness="0">
+                                <Button.Background>
+                                    <ImageBrush ImageSource="ms-appx:/Assets/Registbackbtn.jpg"/>
+                                </Button.Background>
+                                </Button>
+                             </StackPanel>
+                             <TextBlock Name="date" Margin="150,10,0,0" FontSize="20" Foreground="Red">
+                                我是文字
+                            </TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                    </DataTemplate>
+                </GridView.ItemTemplate>    
+            <-->
+        </GridView>
+        <Image x:Name="imgPortrait" HorizontalAlignment="Left" Height="139" Margin="94,88,0,0" VerticalAlignment="Top" Width="143"/>
+        <TextBlock x:Name="txblName" HorizontalAlignment="Left" Margin="269,131,0,0" TextWrapping="Wrap" Text="昵称" VerticalAlignment="Top" Height="47" Width="136" FontSize="30" FontWeight="Bold" FontFamily="Microsoft YaHei" Foreground="Black"/>
     </Grid>
+
 </Page>

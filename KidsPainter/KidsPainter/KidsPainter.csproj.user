@@ -5,4 +5,10 @@
     <AppxShowAllApps>True</AppxShowAllApps>
     <AppxBuildConfigurationSelection>neutral</AppxBuildConfigurationSelection>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <UseSimulator>False</UseSimulator>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <UseAuthentication>False</UseAuthentication>
+    <RemoteDebugMachine>192.168.1.105 (ZhengJiaBin)</RemoteDebugMachine>
+  </PropertyGroup>
 </Project>

@@ -3,13 +3,19 @@ Assets\Background_setting.jpg
 Assets\Background_write.jpg
 Assets\Description.jpg
 Assets\Eraser.png
+Assets\LoginBackground.jpg
 Assets\Logo.png
 Assets\mainpage.jpg
 Assets\music.mp3
 Assets\NewFile.png
 Assets\NewMail.png
 Assets\OilPastel.png
+Assets\Okpressed.png
 Assets\PictureLib.png
+Assets\picturepanel.png
+Assets\Registbackbtn.jpg
+Assets\Registbakgd.jpg
+Assets\Registok.jpg
 Assets\SendEmail.png
 Assets\setting.png
 Assets\SmallLogo.png
@@ -28,6 +34,8 @@ Assets\Stamp\ninja.png
 Assets\Stamp\pig.png
 Assets\Stamp\pikachu.png
 Assets\Stamp\star.png
+Assets\start1.jpg
+Assets\start2.jpg
 Assets\StoreLogo.png
 Assets\TakePhoto.png
 Assets\WaterBrush.png
@@ -47,6 +55,7 @@ Common\StandardStyles.xaml
 InputPassword.xaml
 Login_zyt.xaml
 Main.xaml
+MasterPieceItem.xaml
 MyUserControl.xaml
 PaintPage.xaml
 Register_zyt.xaml

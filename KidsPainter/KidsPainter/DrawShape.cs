@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,8 +14,6 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
-using Parse;
-using System.IO;
 
 namespace KidsPainter
 {
@@ -49,17 +48,22 @@ namespace KidsPainter
                     {
                         using (IRandomAccessStream imageStream = await imageReceived.OpenReadAsync())
                         {
-                            //将流上传到服务器上
                             Stream bmpImage = WindowsRuntimeStreamExtensions.AsStreamForRead(imageStream.GetInputStreamAt(0));
+                            /*
+                            //将流上传到服务器上
+                            
                             ParseFile imgFile = new ParseFile("Painter.bmp", bmpImage);
 
                             await imgFile.SaveAsync();
 
                             var paintersObj = new ParseObject("Paints");
                             paintersObj["imageFile"] = imgFile;
-                            paintersObj["user"] = "Default";
+                            paintersObj["user"] = ParseUser.CurrentUser;
 
                             await paintersObj.SaveAsync();
+
+                            Message.ShowToast("发布成功");
+                             * */
 
                             StorageFolder folder = await ApplicationData.Current.LocalFolder.GetFolderAsync("Temp");
                             if (folder == null)
@@ -71,6 +75,7 @@ namespace KidsPainter
                             await FileIO.WriteBufferAsync(file, buffer);
                             control.factory.IsGetScreenSucccess = true;
                             retelement.success = true;
+                            retelement.imagestream = bmpImage;
                             return retelement;
                         }
                     }
