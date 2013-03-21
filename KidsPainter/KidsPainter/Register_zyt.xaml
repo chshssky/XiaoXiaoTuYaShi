@@ -40,24 +40,18 @@
         <TextBox x:Name="txBoParentEmail" HorizontalAlignment="Left" Margin="240,5,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="38" Width="348"/>
         <TextBlock HorizontalAlignment="Left" Margin="42,63,0,0" Grid.Row="1" TextWrapping="Wrap" Text="小孩昵称" VerticalAlignment="Top" Height="44" Width="172" FontSize="40"/>
         <TextBox x:Name="txBoName" HorizontalAlignment="Left" Margin="240,68,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="348" Height="39"/>
-        <TextBlock HorizontalAlignment="Left" Margin="925,83,0,0" Grid.Row="1" TextWrapping="Wrap" Text="头像" VerticalAlignment="Top" Height="41" Width="116" FontSize="30" RenderTransformOrigin="0.476,-1.614"/>
-        <Image x:Name="imgChildPhoto" HorizontalAlignment="Left" Height="228" Margin="879,140,0,0" Grid.Row="1" VerticalAlignment="Top" Width="247"/>
-        <Button x:Name="btnChoose" Content="从本地选择" HorizontalAlignment="Left" Margin="1152,154,0,0" Grid.Row="1" VerticalAlignment="Top" Height="66" Width="162" FontSize="25" Click="btnChoose_Click"/>
-        <Button x:Name="btnTakePhoto" Content="使用摄像头" HorizontalAlignment="Left" Margin="1152,306,0,0" Grid.Row="1" VerticalAlignment="Top" Height="57" Width="162" FontSize="25" Click="btnTakePhoto_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="42,269,0,0" Grid.Row="1" TextWrapping="Wrap" Text="头像" VerticalAlignment="Top" Height="41" Width="116" FontSize="30" RenderTransformOrigin="0.476,-1.614"/>
+        <Image x:Name="imgChildPhoto" HorizontalAlignment="Left" Height="228" Margin="249,255,0,0" Grid.Row="1" VerticalAlignment="Top" Width="247"/>
+        <Button x:Name="btnChoose" Content="从本地选择" HorizontalAlignment="Left" Margin="580,269,0,0" Grid.Row="1" VerticalAlignment="Top" Height="66" Width="162" FontSize="25" Click="btnChoose_Click"/>
+        <Button x:Name="btnTakePhoto" Content="使用摄像头" HorizontalAlignment="Left" Margin="580,389,0,0" Grid.Row="1" VerticalAlignment="Top" Height="57" Width="162" FontSize="25" Click="btnTakePhoto_Click"/>
         <TextBlock x:Name="txBlPath" HorizontalAlignment="Left" Margin="767,389,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="589" Text="{Binding Path}" FontSize="20"/>
-        <Button x:Name="btnYes" Content="注册" HorizontalAlignment="Left" Margin="252,443,0,0" Grid.Row="1" VerticalAlignment="Top" Height="81" Width="134" FontSize="40" Click="btnYes_Click"/>
-        <Button x:Name="btnNo" Content="取消" HorizontalAlignment="Left" Margin="452,443,0,0" Grid.Row="1" VerticalAlignment="Top" Height="81" Width="120" FontSize="40" Click="btnNo_Click"/>
+        <Button x:Name="btnYes" Content="注册" HorizontalAlignment="Left" Margin="240,524,0,0" Grid.Row="1" VerticalAlignment="Top" Height="67" Width="134" FontSize="40" Click="btnYes_Click"/>
+        <Button x:Name="btnNo" Content="取消" HorizontalAlignment="Left" Margin="474,524,0,0" Grid.Row="1" VerticalAlignment="Top" Height="67" Width="114" FontSize="40" Click="btnNo_Click"/>
         <TextBlock x:Name="txBlShow" HorizontalAlignment="Left" Margin="792,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="148" Width="354" FontSize="20" Grid.RowSpan="2"/>
         <TextBlock HorizontalAlignment="Left" Margin="42,129,0,0" Grid.Row="1" TextWrapping="Wrap" Text="输入密码" VerticalAlignment="Top" Height="43" Width="172" FontSize="30"/>
         <TextBlock HorizontalAlignment="Left" Margin="42,183,0,0" Grid.Row="1" TextWrapping="Wrap" Text="再次输入" VerticalAlignment="Top" Height="37" Width="120" FontSize="30"/>
         <PasswordBox x:Name="psdBox1" HorizontalAlignment="Left" Margin="240,129,0,0" Grid.Row="1" VerticalAlignment="Top" Width="348" Height="43"/>
         <PasswordBox x:Name="psdBox2" HorizontalAlignment="Left" Margin="240,183,0,0" Grid.Row="1" VerticalAlignment="Top" Width="348" Height="37"/>
-        <Button x:Name="btnGetNum" Content="点击获取邮箱验证码" HorizontalAlignment="Left" Margin="617,5,0,0" Grid.Row="1" VerticalAlignment="Top" Height="38" Width="175" Click="btnGetNum_Click"/>
-        <TextBlock HorizontalAlignment="Left" Margin="44,271,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="170" FontSize="20">
-        	<Run Text="请填入我们给你邮箱发送的验证"/>
-        	<Run Text="码"/>
-        </TextBlock>
-        <TextBox x:Name="txBoNum" HorizontalAlignment="Left" Margin="252,281,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="147"/>
         <TextBlock x:Name="txBlName" HorizontalAlignment="Left" Margin="767,447,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="589" Text="{Binding Name}" FontSize="20"/>
 
         <VisualStateManager.VisualStateGroups>

@@ -158,7 +158,7 @@ namespace KidsPainter
                 RegisterResult registerRes = await rrTask;
                 if (registerRes.ifSuccess == 1)
                 {
-                    Message.ShowToast("register OK");
+                    Message.ShowToast("注册成功 请到邮箱查收 ");
                     this.Frame.Navigate(typeof(Login_zyt));  //这里跳转到到登陆界面还是直接帮其登陆、跳转到主界面还有待商榷
              
                 }
