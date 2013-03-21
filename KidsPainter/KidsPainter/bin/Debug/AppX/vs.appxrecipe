@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\KidsPainter.exe">
       <PackagePath>KidsPainter.exe</PackagePath>
-      <Modified>2013-03-20T13:16:15.982</Modified>
+      <Modified>2013-03-21T08:24:17.833</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\KidsPainter.pdb">
       <PackagePath>KidsPainter.pdb</PackagePath>
-      <Modified>2013-03-20T13:16:15.939</Modified>
+      <Modified>2013-03-21T08:24:17.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\packages\Newtonsoft.Json.4.5.11\lib\winrt45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -250,7 +250,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\Register_zyt.xaml">
       <PackagePath>Register_zyt.xaml</PackagePath>
-      <Modified>2013-03-20T06:53:38.786</Modified>
+      <Modified>2013-03-21T07:19:02.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\SetPassword.xaml">
       <PackagePath>SetPassword.xaml</PackagePath>
@@ -266,7 +266,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\Main.xaml">
       <PackagePath>Main.xaml</PackagePath>
-      <Modified>2013-03-19T16:04:32.510</Modified>
+      <Modified>2013-03-21T07:19:02.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\PaintPage.xaml">
       <PackagePath>PaintPage.xaml</PackagePath>

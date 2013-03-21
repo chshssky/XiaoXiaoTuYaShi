@@ -146,7 +146,7 @@ namespace KidsPainter
 
         private async void btnYes_Click(object sender, RoutedEventArgs e)
         {
-            if (txBoParentEmail.Text.Equals("") || txBoName.Text.Equals("") || txBlPath.Text.Equals("") || txBoNum.Text.Equals(""))
+            if (txBoParentEmail.Text.Equals("") || txBoName.Text.Equals("") || txBlPath.Text.Equals(""))
                 txBlShow.Text = "注册信息不完整"; // 判断是否填写不完整
             else if (!psdBox1.Password.Equals(psdBox2.Password)) //两次密码不同
                 txBlShow.Text = "两次密码输入不同，请确认";
