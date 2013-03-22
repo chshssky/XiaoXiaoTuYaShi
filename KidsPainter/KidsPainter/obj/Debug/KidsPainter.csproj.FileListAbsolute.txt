@@ -343,3 +343,13 @@ C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Debug
 C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Debug\pri.resfiles
 C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Debug\LanguageQualifiers.txt
 C:\Users\song\Documents\GitHub\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Debug\ProjectArchitectures.txt
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\Assets\LoginBackground.jpg
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\Assets\picturepanel.png
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\Assets\Registbackbtn.jpg
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\Assets\Registbakgd.jpg
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\Assets\Registok.jpg
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\Assets\start1.jpg
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\bin\Debug\Assets\start2.jpg
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Debug\MasterPieceItem.g.i.cs
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Debug\MasterPieceItem.g.cs
+C:\Users\Yiting\Documents\GitHub\XiaoXiaoTuYaShi\XiaoXiaoTuYaShi\KidsPainter\KidsPainter\obj\Debug\MasterPieceItem.xaml

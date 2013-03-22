@@ -101,13 +101,13 @@
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
-        <TextBlock HorizontalAlignment="Left" Margin="333,181,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Mail" VerticalAlignment="Top" Height="53" Width="173" FontSize="40"/>
-        <TextBox x:Name="txBoEm" HorizontalAlignment="Left" Margin="538,175,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="311" RenderTransformOrigin="0.5,0.5" FontSize="24" FontFamily="Verdana" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <TextBlock HorizontalAlignment="Left" Margin="284,181,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Mail" VerticalAlignment="Top" Height="53" Width="173" FontSize="40"/>
+        <TextBox x:Name="txBoEm" HorizontalAlignment="Left" Margin="458.959,174.849,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="431.831" RenderTransformOrigin="0.5,0.5" FontSize="24" FontFamily="Verdana" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <TextBox.RenderTransform>
                 <CompositeTransform Rotation="0.466"/>
             </TextBox.RenderTransform>
         </TextBox>
-        <TextBlock HorizontalAlignment="Left" Margin="333,266,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Height="40" Width="173" FontSize="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="237,266,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Height="40" Width="173" FontSize="40"/>
         <Button x:Name="btnYes"   Content="" HorizontalAlignment="Left" Margin="906,181,0,0" Grid.Row="1" VerticalAlignment="Top" Height="125" Width="119" FontSize="40" BorderThickness="0" PointerMoved="btnYes_PointerMoved" PointerExited="btnYes_PointerExited" Click="btnYes_Click" GotFocus="btnYes_GotFocus">
             <Button.Foreground>
                 <ImageBrush/>
@@ -116,7 +116,7 @@
                 <ImageBrush ImageSource="ms-appx:/Assets/start1.jpg"/>
             </Button.Background>
         </Button>
-        <PasswordBox x:Name="pdBox" HorizontalAlignment="Left" Margin="538,266,0,0" Grid.Row="1" VerticalAlignment="Top" Height="56" Width="311" FontSize="24"/>
+        <PasswordBox x:Name="pdBox" HorizontalAlignment="Left" Margin="459,266,0,0" Grid.Row="1" VerticalAlignment="Top" Height="56" Width="429" FontSize="24"/>
         <Grid HorizontalAlignment="Left" Height="252" Margin="952,10,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="414"/>
         <Button x:Name="Register" Content="注册" HorizontalAlignment="Left" Margin="989,453,0,0" Grid.Row="1" VerticalAlignment="Top" Height="66" Width="162" Click="Button_Click_1" FontSize="36"/>
 

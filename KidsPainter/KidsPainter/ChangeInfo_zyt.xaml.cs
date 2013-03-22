@@ -134,7 +134,12 @@ namespace KidsPainter
             imgPhoto.Source = returnEle.bitmapImage;
             txBlPath.Text = returnEle.filename; 
         }
-        
+
+        private void btnYes0_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
       
 
     }

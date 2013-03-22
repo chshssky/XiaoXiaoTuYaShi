@@ -40,7 +40,22 @@
             </TextBlock>
         </Grid>
         <FlipView HorizontalAlignment="Left" Margin="64,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="1200">
-            <FlipViewItem x:Name="fvi1" FontSize="40" Width="1200">
+            <FlipViewItem x:Name="fvi0" Width="1139" Foreground="#FF212020">
+                <Grid HorizontalAlignment="Left" Height="612" VerticalAlignment="Top" Width="1139">
+                    <TextBlock HorizontalAlignment="Left" Margin="36,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="79" Width="899" Foreground="#FF0F0F0F" FontSize="50">
+                		<Run Text="添加好友"/>
+                		<Run Text="：请输入好友信息"/>
+                		<Run Text="进行查找"/>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Margin="49,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="58" Width="202" Text="好友邮箱" FontSize="40" Foreground="#FF131010"/>
+                    <TextBox x:Name="txboFriendEmail" HorizontalAlignment="Left" Margin="294,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="346" Height="47"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="49,268,0,0" TextWrapping="Wrap" Text="好友昵称" VerticalAlignment="Top" Height="40" Width="202" FontSize="40" Foreground="#FF0C0A0A"/>
+                    <TextBox x:Name="txboFriendName" HorizontalAlignment="Left" Margin="294,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="346"/>
+                    <Button x:Name="btnYes0" Content="确定" HorizontalAlignment="Left" Margin="267,393,0,0" VerticalAlignment="Top" Height="66" Width="170" FontSize="40" Foreground="#FF0C0B0B" Click="btnYes0_Click"/>
+                </Grid>
+
+            </FlipViewItem>
+            <FlipViewItem x:Name="fvi1" FontSize="40" Width="1139">
                 <Grid>
                     <TextBlock x:Name="txBoGuide" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="更改邮箱" VerticalAlignment="Top" Width="495"/>
                     <TextBlock Text="原邮箱" Margin="0,140,677,420"></TextBlock>
@@ -67,7 +82,7 @@
                 </Grid>
 
             </FlipViewItem>
-            <FlipViewItem x:Name="fvi3" FontSize="40" Width="469">
+            <FlipViewItem x:Name="fvi3" FontSize="40" Width="1139">
                 <Grid HorizontalAlignment="Left" Height="612" VerticalAlignment="Top" Width="1194">
                     <TextBlock Margin="10,10,560,523" Text="更改昵称" FontSize="50"></TextBlock>
                     <TextBlock Margin="0,128,1052,423" Text="新昵称" FontSize="40"/>
@@ -75,7 +90,7 @@
                     <Button x:Name="btnYes3" Margin="225,278,0,285" Height="49" Width="144" Content="确定" FontSize="25"></Button>
                 </Grid>
             </FlipViewItem>
-            <FlipViewItem x:Name="fvi4" FontSize="40" Width="469">
+            <FlipViewItem x:Name="fvi4" FontSize="40" Width="1139">
                 <Grid HorizontalAlignment="Left" Height="612" VerticalAlignment="Top" Width="1194">
                     <TextBlock Margin="10,10,511,515" Text="更改头像"></TextBlock>
                     <Image x:Name="imgPhoto" Margin="62,124,729,164"></Image>
