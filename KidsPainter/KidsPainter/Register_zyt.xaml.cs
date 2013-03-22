@@ -124,7 +124,7 @@ namespace KidsPainter
                     {
                         folder = await ApplicationData.Current.LocalFolder.CreateFolderAsync("Picture");
                     }
-                    await file.CopyAsync(folder);
+                    await file.CopyAsync(folder,txBlPath.Text, NameCollisionOption.ReplaceExisting);
                 }
             }
         }
