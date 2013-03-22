@@ -36,6 +36,7 @@ namespace KidsPainter
         public Register_zyt()
         {
             this.InitializeComponent();
+            test();
         }
 
         /// <summary>
@@ -59,6 +60,19 @@ namespace KidsPainter
         /// <param name="pageState">要使用可序列化状态填充的空字典。</param>
         protected override void SaveState(Dictionary<String, Object> pageState)
         {
+        }
+
+        private async void test()
+        {
+            //test
+            byte[] data = System.Text.Encoding.UTF8.GetBytes("This is just a test!");
+            ParseFile file = new ParseFile("resume.txt", data);
+            await file.SaveAsync();
+
+            var job = new ParseObject("Job");
+            job["name"] = "test";
+            job["file"] = file;
+            await job.SaveAsync();
         }
 
         private async void btnChoose_Click(object sender, RoutedEventArgs e) //从本地选择照片
@@ -129,6 +143,7 @@ namespace KidsPainter
 
         private void btnNo_Click(object sender, RoutedEventArgs e)
         {
+
             txBoParentEmail.Text = "";
             txBlPath.Text = "";
             txBoName.Text = "";    //点击取消按钮，是要把东西都清空还是返回登陆？清空的话，图片不能清空否则有点小问题
@@ -167,6 +182,8 @@ namespace KidsPainter
 
                 ParseFile portrait = new ParseFile(nick_name + "sPhoto.png", pic);
                 await portrait.SaveAsync();
+
+                
 
 
                 var user = new ParseUser()

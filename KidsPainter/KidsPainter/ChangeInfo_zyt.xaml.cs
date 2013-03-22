@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using System.Threading.Tasks;
+using Parse;
 
 // “基本页”项模板在 http://go.microsoft.com/fwlink/?LinkId=234237 上有介绍
 
@@ -59,10 +60,13 @@ namespace KidsPainter
          */
         private void btnYes1_Click(object sender, RoutedEventArgs e) //修改邮箱的确定键
         {
-            if (txBoOrgEmail.Text.Equals("") || txBoNewEmail.Text.Equals("") || txBoNum.Text.Equals("") || psdBox.Password.Equals(""))
+            if (txBoOrgEmail.Text.Equals("") || txBoNewEmail.Text.Equals("") || psdBox.Password.Equals(""))
                 txBlShow1.Text = "输入不完整，请检查";
             else
                 txBlShow1.Text = "成功";
+
+            //ParseUser.CurrentUser
+
         }
         /*
        *修改邮箱部分，查看各种输入是否合法 

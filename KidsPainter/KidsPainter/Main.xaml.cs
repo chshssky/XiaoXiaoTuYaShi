@@ -49,7 +49,7 @@ namespace KidsPainter
             number.Add(4);
             timeline.ItemsSource = number;
              * */
-
+            //loadTest();
             loadPaints();
 
             loadImg();
@@ -57,8 +57,22 @@ namespace KidsPainter
 
         }
 
+        private async void loadTest()
+        {
+            //test
+            var query = from Job in ParseObject.GetQuery("Job")
+            where Job.Get<string>("name") == "test"
+            select Job;
+            IEnumerable<ParseObject> results = await query.FindAsync();
+            var file = results.ElementAt<ParseObject>(0).Get<ParseFile>("file");
+            String text = await new HttpClient().GetStringAsync(file.Url);
+            Message.ShowDialog(text);
+        }
+
         private async void loadPaints()
         {
+
+
             String user = ParseUser.CurrentUser.Username;
 
             var query = from Paints in ParseObject.GetQuery("Paints")
@@ -77,20 +91,20 @@ namespace KidsPainter
                 //差12个小时
                 item.InitialItem("发布于:"+postTime);
 
-                var paintImage = results.ElementAt<ParseObject>(i).Get<ParseFile>("imageFile");
-                Stream imgStream = await new HttpClient().GetStreamAsync(paintImage.Url);
+               // var paintImage = results.ElementAt<ParseObject>(i).Get<ParseFile>("imageFile");
+                //Stream imgStream = await new HttpClient().GetStreamAsync(paintImage.Url);
 
                 txblName.Text = ParseUser.CurrentUser.Get<string>("nickName");
 
                 InMemoryRandomAccessStream ras = new InMemoryRandomAccessStream();
 
-                await imgStream.CopyToAsync(ras.AsStreamForWrite());
+                //await imgStream.CopyToAsync(ras.AsStreamForWrite());
 
                 BitmapImage bmpImg = new BitmapImage();
-                bmpImg.SetSource(ras);
+               // bmpImg.SetSource(ras);
 
 
-                item.InitialPicture(bmpImg);
+                item.InitialPicture(new BitmapImage(new Uri("ms-appx:/Assets/Logo.png")));//bmpImg);
 
                 timeline.Items.Add(item);
             }
@@ -112,7 +126,7 @@ namespace KidsPainter
             BitmapImage bmpImg = new BitmapImage();
             bmpImg.SetSource(ras);
 
-            imgPortrait.Source = bmpImg;//new BitmapImage(new Uri("ms-appx:/Assets/Logo.png")); ;//;
+            imgPortrait.Source = new BitmapImage(new Uri("ms-appx:/Assets/Logo.png")); ;//;bmpImg;//
 
         }
 
@@ -183,6 +197,11 @@ namespace KidsPainter
         {
             if (this.Frame != null)
                 this.Frame.Navigate(typeof(ChangeInfo_zyt));
+        }
+
+        private void btnFriendList_Click(object sender, RoutedEventArgs e)
+        {
+
         }
 
         /*
