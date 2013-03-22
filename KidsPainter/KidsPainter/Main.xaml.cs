@@ -88,8 +88,10 @@ namespace KidsPainter
                 MasterPieceItem item = new MasterPieceItem();
 
                 DateTime? postTime = results.ElementAt<ParseObject>(i).CreatedAt;
-                //差12个小时
-                item.InitialItem("发布于:"+postTime);
+                //差8个小时
+                DateTime postTim = postTime.Value.AddHours(8);
+
+                item.InitialItem("发布于: " + postTim);
 
                // var paintImage = results.ElementAt<ParseObject>(i).Get<ParseFile>("imageFile");
                 //Stream imgStream = await new HttpClient().GetStreamAsync(paintImage.Url);
